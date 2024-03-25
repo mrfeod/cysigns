@@ -96,6 +96,8 @@ function nextQuestion() {
 
 function switchMode() {
   currentQuestion = 0;
+  correctCount = 0;
+  incorrectCount = 0;
   showQuestion();
 }
 

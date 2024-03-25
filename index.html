@@ -28,22 +28,42 @@
             margin: 0;
         }
 
+        #selfTest {
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+            display: flex;
+            background-color: #ccc;
+            padding: 5px;
+            border-radius: 5px;
+            border: #555;
+            opacity: 0.5;
+        }
+
+        #selfTest p {
+            font-size: x-small;
+        }
+
+        #score {
+            text-align: center;
+            width: 80vw;
+        }
+
         #signContainer {
             display: flex;
             justify-content: center;
             align-items: center;
-            margin-top: 10px;
-            height: 50vh;
-            min-height: 50vh;
-            max-height: 50vh;
+            height: 40vh;
+            min-height: 40vh;
+            max-height: 40vh;
             width: auto;
         }
 
         #signImage {
             text-align: center;
-            height: 50vmin;
-            min-height: 50vmin;
-            max-height: 50vh;
+            height: 40vmin;
+            min-height: 40vmin;
+            max-height: 40vh;
             max-width: 80vw;
             display: block;
         }
@@ -76,10 +96,6 @@
             background-color: #eee;
         }
 
-        #score {
-            text-align: center;
-            margin-top: 10px;
-        }
 
         #answer {
             text-align: center;
@@ -87,7 +103,8 @@
             font-weight: bold;
         }
 
-        #nextButton {
+        #nextButton,
+        #showAnswerButton {
             display: block;
             margin: 0 auto;
             margin-top: 10px;
@@ -101,7 +118,8 @@
             min-height: 48px;
         }
 
-        #nextButton:hover {
+        #nextButton:hover,
+        #showAnswerButton:hover {
             background-color: #555;
         }
 
@@ -121,16 +139,20 @@
 </head>
 
 <body>
+    <div id="selfTest">
+        <p>Self-test:</p><input id="mode" type="checkbox" title="Test mode" onclick="switchMode()">
+    </div>
+    <div id="score">
+        <p>Question <span id="question">0</span> of <span id="total">0</span>: ✅<span id="correct">0</span>/❌<span
+                id="incorrect">0</span></p>
+    </div>
     <div id="signContainer"> <img id="signImage" src="" alt="Road Sign">
     </div>
     <div id="answers">
         <!-- Options will be populated here -->
     </div>
-    <div id="score">
-        Correct: <span id="correct">0</span>
-        Incorrect: <span id="incorrect">0</span>
-    </div>
     <p id="answer"></p>
+    <button id="showAnswerButton" onclick="showAnswer()">Show answer</button>
     <button id="nextButton" onclick="nextQuestion()">Next</button>
     <script src="signs.js"></script>
     <script src="script.js"></script>

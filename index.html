@@ -2,9 +2,18 @@
 <html>
 
 <head>
-    <title>Road Sign Test</title>
+    <meta charset="utf-8" />
+    <title>Cyprus Road Signs Test</title>
+    <link rel="me" href="https://github.com/mrfeod/cysigns/">
+    <link rel="apple-touch-icon" sizes="180x180" href="icon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icon/favicon-16x16.png">
+    <link rel="manifest" href="icon/site.webmanifest">
     <style>
         body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            padding: 0;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -13,32 +22,98 @@
             margin: 0;
         }
 
-        .signImage {
-            text-align: center;
+        #signContainer {
+            align-items: center;
+            margin-top: 10px;
+            height: 50vh;
+            width: auto;
+            min-height: 50vh;
+            max-height: 50vh;
         }
 
-        .answers {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            width: 80%;
-            min-width: 80%;
-            max-width: 80%;
+        #signImage {
+            text-align: center;
+            height: 50vh;
+            min-height: 50vh;
+            max-height: 50vh;
+            max-width: 80vw;
+            display: block;
+        }
+
+        #answers {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            margin-top: 20px;
+            gap: 10px;
+            justify-items: center;
+            width: auto;
+            height: auto;
         }
 
         .answer {
-            width: 80%;
-            min-width: 80%;
-            max-width: 80%;
+            width: 30vw;
+            min-width: 200px;
+            max-width: 48vw;
+            min-height: 64px;
+            padding: 10px;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            text-align: center;
+            cursor: pointer;
+        }
+
+        .answer:hover {
+            background-color: #eee;
+        }
+
+        #score {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        #answer {
+            text-align: center;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        #nextButton {
+            display: block;
+            margin: 0 auto;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        #nextButton:hover {
+            background-color: #555;
+        }
+
+        p small {
+            color: gainsboro;
+        }
+
+        a {
+            color: gainsboro;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 
 <body>
-    <img id="signImage" src="" alt="Road Sign" style="min-height: 60%; max-height: 60%;">
-    <div id="answers"
-        style="margin-top: 20px; display: grid; grid-template-columns: repeat(2, 1fr); grid-template-rows: repeat(2, 1fr); gap: 10px; justify-items: center;">
+    <div id="signContainer"> <img id="signImage" src="" alt="Road Sign">
+    </div>
+    <div id="answers">
         <!-- Options will be populated here -->
     </div>
     <div id="score">

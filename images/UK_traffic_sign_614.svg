@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="602mm"
+   height="602mm"
+   viewBox="0 0 602 602"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="111.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#111111"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     width="602mm"
+     inkscape:zoom="0.27464869"
+     inkscape:cx="1640.2773"
+     inkscape:cy="1028.5867"
+     inkscape:window-width="1920"
+     inkscape:window-height="1057"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,305)">
+    <circle
+       style="fill:#e31017;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.25729"
+       id="path31"
+       cx="301"
+       cy="-3.9999883"
+       r="300" />
+    <circle
+       style="fill:#ffffff;fill-rule:evenodd;stroke:none;stroke-width:1.00583"
+       id="circle1182"
+       cx="301"
+       cy="-3.9999883"
+       r="240" />
+    <path
+       id="rect65"
+       style="fill:#000000;fill-rule:evenodd;stroke:none;stroke-width:0.562306"
+       d="M 431.00015,136.00008 V -49.000106 c 0,-72.020004 -57.97982,-129.999814 -129.99982,-129.999814 -72.02,0 -130.00033,57.97981 -130.00033,129.999814 V 176.00004 l 40,-39.99996 40.00029,39.99996 V -49.000106 c 0,-27.699999 22.30005,-50.000048 50.00004,-50.000048 27.7,0 50.00005,22.300049 50.00005,50.000048 V 136.00008 l 39.99977,39.99996 z"
+       sodipodi:nodetypes="cssscccsssccc" />
+    <rect
+       style="fill:#e31017;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.354511"
+       id="rect1079"
+       width="50"
+       height="580"
+       x="128.9641"
+       y="-31.326353"
+       transform="rotate(-60)" />
+  </g>
+</svg>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="681"
+   height="602.12"
+   fill-rule="evenodd"
+   version="1.1"
+   id="svg12"
+   sodipodi:docname="UK_traffic_sign_500.svg"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs16" />
+  <sodipodi:namedview
+     id="namedview14"
+     pagecolor="#ffffff"
+     bordercolor="#111111"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     showgrid="false"
+     inkscape:zoom="1.1941141"
+     inkscape:cx="268.3998"
+     inkscape:cy="275.93677"
+     inkscape:window-width="1920"
+     inkscape:window-height="1057"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg12" />
+  <path
+     d="M46.019,601.088 7.048,533.588 301.529,23.532 379.471,23.532 673.952,533.588 634.981,601.088"
+     fill="#e31017"
+     stroke="none"
+     id="path2" />
+  <circle
+     cx="340.5"
+     cy="46.032"
+     r="45"
+     fill="#e31017"
+     stroke="none"
+     id="circle4" />
+  <circle
+     cx="634.981"
+     cy="556.088"
+     r="45"
+     fill="#e31017"
+     stroke="none"
+     id="circle6" />
+  <circle
+     cx="46.019"
+     cy="556.088"
+     r="45"
+     fill="#e31017"
+     stroke="none"
+     id="circle8" />
+  <path
+     d="M72,541.088 340.5,76.032 609,541.088"
+     fill="#fff"
+     stroke="none"
+     id="path10" />
+  <path
+     d="m 231.85642,370.15433 c -8.55802,-0.0856 -15.55714,6.91485 -15.57601,15.57599 v 25.6675 c 0,0 1.24609,9.49764 10.31088,9.43337 v 6.14265 h -47.60553 c -9.16001,-0.0703 -18.84873,5.11002 -24.13184,11.84654 l -23.47371,41.24351 c -3.36705,5.94212 -2.85194,14.25971 -2.85194,14.25971 0,0 1.75943,26.75146 30.27449,26.7644 h 319.19841 c 9.22713,-0.0131 18.91716,-5.1923 24.13182,-11.84653 l 23.69308,-41.46289 c 3.21612,-5.80591 2.63256,-14.04034 2.63256,-14.04034 0,0 -1.69142,-26.83461 -30.0551,-26.7644 H 342.86287 v -6.14265 c 9.14596,0.0644 10.31088,-9.43337 10.31088,-9.43337 v -5.70387 l 110.56769,-16.01477 -1.53566,-11.62715 -109.03203,7.23954 c -0.13821,-8.41982 -7.06186,-15.2228 -15.57602,-15.13724"
+     style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.21938"
+     id="path16"
+     sodipodi:nodetypes="ccccccccccccccccccccccc" />
+</svg>

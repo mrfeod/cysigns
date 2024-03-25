@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="211.85054"
+   height="211.71344"
+   id="svg4205"
+   version="1.1"
+   inkscape:version="0.47 r22583"
+   sodipodi:docname="Cyprus road sign maximum lenght.svg">
+  <defs
+     id="defs4207">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective4213" />
+    <inkscape:perspective
+       id="perspective4228"
+       inkscape:persp3d-origin="106.21 : 70.796666 : 1"
+       inkscape:vp_z="212.42 : 106.195 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 106.195 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <clipPath
+       id="clipPath16">
+      <path
+         inkscape:connector-curvature="0"
+         d="M 0.059998,169.98 H 170 V 0.06 H 0.059998 v 169.92 z"
+         id="path18" />
+    </clipPath>
+    <inkscape:perspective
+       id="perspective4247"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3426">
+      <path
+         d="m 43.076,488.976 34.845,0 0,34.015 -34.845,0 0,-34.015 z"
+         id="path3428" />
+    </clipPath>
+    <inkscape:perspective
+       id="perspective4323"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath2896">
+      <path
+         d="m 102.752,490.181 34.845,0 0,34.016 -34.845,0 0,-34.016 z"
+         id="path2898" />
+    </clipPath>
+    <inkscape:perspective
+       id="perspective5249"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective5326"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3128">
+      <path
+         d="m 164.704,490.181 34.845,0 0,34.016 -34.845,0 0,-34.016 z"
+         id="path3130" />
+    </clipPath>
+    <inkscape:perspective
+       id="perspective5450"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3318">
+      <path
+         d="m 224.23,490.181 34.845,0 0,34.016 -34.845,0 0,-34.016 z"
+         id="path3320" />
+    </clipPath>
+    <inkscape:perspective
+       id="perspective5517"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath2936">
+      <path
+         d="m 43.087,413.859 34.845,0 0,34.016 -34.845,0 0,-34.016 z"
+         id="path2938" />
+    </clipPath>
+    <inkscape:perspective
+       id="perspective5617"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3572">
+      <path
+         d="m 102.752,413.859 34.845,0 0,34.016 -34.845,0 0,-34.016 z"
+         id="path3574" />
+    </clipPath>
+    <inkscape:perspective
+       id="perspective5745"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3694">
+      <path
+         d="m 164.704,413.859 34.845,0 0,34.016 -34.845,0 0,-34.016 z"
+         id="path3696" />
+    </clipPath>
+    <inkscape:perspective
+       id="perspective5843"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3500">
+      <path
+         d="m 224.23,413.859 34.845,0 0,34.016 -34.845,0 0,-34.016 z"
+         id="path3502" />
+    </clipPath>
+    <inkscape:perspective
+       id="perspective6067"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3162">
+      <path
+         d="m 43.076,323.15 34.845,0 0,34.016 -34.845,0 0,-34.016 z"
+         id="path3164" />
+    </clipPath>
+    <inkscape:perspective
+       id="perspective6134"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3350">
+      <path
+         d="m 103.255,323.15 34.845,0 0,34.016 -34.845,0 0,-34.016 z"
+         id="path3352" />
+    </clipPath>
+    <inkscape:perspective
+       id="perspective6370"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3262">
+      <path
+         d="m 164.704,323.15 34.845,0 0,34.016 -34.845,0 0,-34.016 z"
+         id="path3264" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3218">
+      <path
+         d="m 168.515,340.144 c 0,-7.465 6.12,-13.582 13.61,-13.582 l 0,0 c 7.465,0 13.608,6.117 13.608,13.582 l 0,0 c 0,7.491 -6.143,13.61 -13.608,13.61 l 0,0 c -7.49,0 -13.61,-6.119 -13.61,-13.61"
+         id="path3220" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3226">
+      <path
+         d="M 0,0 311,0 311,595 0,595 0,0 z"
+         id="path3228" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3194">
+      <path
+         d="m 164.704,323.15 34.845,0 0,34.016 -34.845,0 0,-34.016 z"
+         id="path3196" />
+    </clipPath>
+    <inkscape:perspective
+       id="perspective6674"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3916">
+      <path
+         d="m 164.862,222.52 34.845,0 0,34.016 -34.845,0 0,-34.016 z"
+         id="path3918" />
+    </clipPath>
+    <inkscape:perspective
+       id="perspective6766"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3944">
+      <path
+         d="m 224.739,222.52 34.845,0 0,34.016 -34.845,0 0,-34.016 z"
+         id="path3946" />
+    </clipPath>
+    <inkscape:perspective
+       id="perspective6882"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3464">
+      <path
+         d="m 102.651,123.307 34.845,0 0,34.016 -34.845,0 0,-34.016 z"
+         id="path3466" />
+    </clipPath>
+    <inkscape:perspective
+       id="perspective8234"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath7334">
+      <path
+         d="m 52.735,415.275 34.845,0 0,34.016 -34.845,0 0,-34.016 z"
+         id="path7336" />
+    </clipPath>
+    <inkscape:perspective
+       id="perspective8289"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath7406">
+      <path
+         d="m 117.545,441.384 c -5.026,-7.03 -3.402,-16.804 3.628,-21.829 l 0,0 c 7.031,-5.027 16.804,-3.4 21.83,3.63 l 0,0 c 5.024,7.028 3.4,16.801 -3.631,21.826 l 0,0 c -2.757,1.972 -5.937,2.92 -9.087,2.92 l 0,0 c -4.88,0 -9.688,-2.276 -12.74,-6.547"
+         id="path7408" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath7414">
+      <path
+         d="M 0,0 311,0 311,595 0,595 0,0 z"
+         id="path7416" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath7386">
+      <path
+         d="m 112.85,415.275 34.845,0 0,34.016 -34.845,0 0,-34.016 z"
+         id="path7388" />
+    </clipPath>
+    <inkscape:perspective
+       id="perspective8393"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath8118">
+      <path
+         d="m 52.735,322.441 34.845,0 0,34.016 -34.845,0 0,-34.016 z"
+         id="path8120" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath8098">
+      <path
+         d="m 53.49,339.448 c 0,-9.205 7.462,-16.667 16.668,-16.667 l 0,0 c 9.204,0 16.667,7.462 16.667,16.667 l 0,0 c 0,9.205 -7.463,16.668 -16.667,16.668 l 0,0 c -9.206,0 -16.668,-7.463 -16.668,-16.668"
+         id="path8100" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath8106">
+      <path
+         d="M 0,0 311,0 311,595 0,595 0,0 z"
+         id="path8108" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath8058">
+      <path
+         d="m 52.735,322.441 34.845,0 0,34.016 -34.845,0 0,-34.016 z"
+         id="path8060" />
+    </clipPath>
+    <inkscape:perspective
+       id="perspective8520"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath8118-4">
+      <path
+         d="m 52.735,322.441 34.845,0 0,34.016 -34.845,0 0,-34.016 z"
+         id="path8120-0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath8098-9">
+      <path
+         d="m 53.49,339.448 c 0,-9.205 7.462,-16.667 16.668,-16.667 l 0,0 c 9.204,0 16.667,7.462 16.667,16.667 l 0,0 c 0,9.205 -7.463,16.668 -16.667,16.668 l 0,0 c -9.206,0 -16.668,-7.463 -16.668,-16.668"
+         id="path8100-4" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath8106-8">
+      <path
+         d="M 0,0 311,0 311,595 0,595 0,0 z"
+         id="path8108-8" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath8058-2">
+      <path
+         d="m 52.735,322.441 34.845,0 0,34.016 -34.845,0 0,-34.016 z"
+         id="path8060-4" />
+    </clipPath>
+    <inkscape:perspective
+       id="perspective8733"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath7236">
+      <path
+         d="m 112.85,322.441 34.845,0 0,34.016 -34.845,0 0,-34.016 z"
+         id="path7238" />
+    </clipPath>
+    <inkscape:perspective
+       id="perspective8821"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath7208">
+      <path
+         d="m 173.356,322.441 34.845,0 0,34.016 -34.845,0 0,-34.016 z"
+         id="path7210" />
+    </clipPath>
+    <inkscape:perspective
+       id="perspective8962"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath7282">
+      <path
+         d="m 52.735,218.976 34.845,0 0,34.016 -34.845,0 0,-34.016 z"
+         id="path7284" />
+    </clipPath>
+    <inkscape:perspective
+       id="perspective9126"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath7434">
+      <path
+         d="m 112.85,218.976 34.845,0 0,34.016 -34.845,0 0,-34.016 z"
+         id="path7436" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.1813655"
+     inkscape:cx="3.6130075"
+     inkscape:cy="87.718823"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1600"
+     inkscape:window-height="838"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata4210">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Livello 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-167.54212,-419.79512)">
+    <g
+       id="g7438"
+       transform="matrix(6.2299821,0,0,-6.2299809,273.45805,610.34843)">
+      <path
+         d="m 0,0 c 7.465,0 13.608,6.117 13.608,13.582 0,7.49 -6.143,13.61 -13.608,13.61 -7.491,0 -13.61,-6.12 -13.61,-13.61 C -13.61,6.117 -7.491,0 0,0"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none"
+         id="path7440" />
+    </g>
+    <g
+       id="g7442"
+       transform="matrix(6.2299821,0,0,-6.2299809,273.45805,610.36401)">
+      <path
+         d="m 0,0 c 7.467,0 13.608,6.119 13.608,13.584 0,7.491 -6.141,13.608 -13.608,13.608 -7.491,0 -13.608,-6.117 -13.608,-13.608 C -13.608,6.119 -7.491,0 0,0 m 0,-3.394 c 9.356,0 17.004,7.648 17.004,16.978 0,9.359 -7.648,17.005 -17.004,17.005 -9.354,0 -17.001,-7.646 -17.001,-17.005 0,-9.33 7.647,-16.978 17.001,-16.978"
+         style="fill:#ed1d24;fill-opacity:1;fill-rule:evenodd;stroke:none"
+         id="path7444" />
+    </g>
+    <g
+       id="g7446"
+       transform="matrix(6.2299821,0,0,-6.2299809,326.17741,522.40796)"
+       style="stroke:#000000;stroke-width:0.49053115;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none">
+      <path
+         d="m 0,0 -2.538,0 c 1.291,0.844 2.086,1.966 2.086,3.201 0,2.622 -3.553,4.747 -7.934,4.747 -4.383,0 -7.933,-2.125 -7.933,-4.747 0,-1.235 0.794,-2.357 2.086,-3.201 l -2.482,0 0,-1.337 5.983,0 c 0.743,-0.136 1.53,-0.21 2.346,-0.21 0.816,0 1.603,0.074 2.344,0.21 L 0,-1.337 0,0 z"
+         style="fill:#f8ac20;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.49053115;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         id="path7448" />
+    </g>
+    <g
+       id="g7450"
+       transform="matrix(6.2299821,0,0,-6.2299809,326.17741,522.40796)">
+      <path
+         d="m 0,0 -2.538,0 c 1.291,0.844 2.086,1.966 2.086,3.201 0,2.622 -3.553,4.747 -7.934,4.747 -4.383,0 -7.933,-2.125 -7.933,-4.747 0,-1.235 0.794,-2.357 2.086,-3.201 l -2.482,0 0,-1.337 5.983,0 c 0.743,-0.136 1.53,-0.21 2.346,-0.21 0.816,0 1.603,0.074 2.344,0.21 L 0,-1.337 0,0 z"
+         style="fill:none;stroke:#000000;stroke-width:0.09630847;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none"
+         id="path7452" />
+    </g>
+    <path
+       d="m 228.91742,548.07915 91.08234,0 0,-6.35458 -91.08234,0 0,6.35458 z"
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="path7454" />
+    <path
+       d="m 312.40541,556.20928 4.58527,0 0,-21.89216 -4.58527,0 0,21.89216 z"
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="path7456" />
+    <path
+       d="m 310.11277,554.53341 4.58527,0 0,-16.59667 -4.58527,0 0,16.59667 z"
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="path7458" />
+    <path
+       d="m 231.38449,556.20928 4.59774,0 0,-21.89216 -4.59774,0 0,21.89216 z"
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="path7460" />
+    <path
+       d="m 233.68959,554.53341 4.58526,0 0,-16.59667 -4.58526,0 0,16.59667 z"
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="path7462" />
+    <g
+       id="g7464"
+       transform="matrix(6.2299821,0,0,-6.2299809,280.81006,545.29249)">
+      <path
+         d="m 0,0 c 0,-0.623 -0.457,-1.128 -1.02,-1.128 -0.562,0 -1.019,0.505 -1.019,1.128 0,0.623 0.457,1.128 1.019,1.128 C -0.457,1.128 0,0.623 0,0"
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path7466" />
+    </g>
+    <path
+       id="path7470"
+       style="fill:none;stroke:#59a8ca;stroke-width:3.3499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none"
+       d="m 212.0379,561.9707 c 4.04326,-0.24919 8.10521,-0.44233 12.16093,-0.50462 4.84693,-0.081 7.18317,0.99679 11.594,2.34246 5.46369,1.66964 10.09257,2.62906 15.59364,1.14633 6.60378,-1.78178 13.23248,-4.05573 20.03562,-4.93415 7.43237,-0.95942 13.93024,4.1554 20.95143,5.68174 6.19261,1.35191 13.88663,-1.33944 19.99202,-2.54806 7.23924,-1.42044 15.15755,-1.00926 22.51515,-1.42044 m -122.84279,6.40442 c 4.04326,-0.2492 8.10521,-0.44232 12.16093,-0.50463 4.84693,-0.0748 7.18317,1.00303 11.594,2.3487 5.46369,1.65719 10.09257,2.6166 15.59364,1.14009 6.60378,-1.78177 13.23248,-4.04325 20.03562,-4.92791 7.43237,-0.96565 13.93024,4.14917 20.95143,5.68175 6.19261,1.34567 13.88663,-1.35192 19.99202,-2.54807 7.23924,-1.42044 15.15755,-1.00926 22.51515,-1.42667" />
+  </g>
+</svg>

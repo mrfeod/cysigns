@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="606" height="606" fill-rule="evenodd">
+<circle cx="303" cy="303" r="302" fill="#000" stroke="none"/>
+<circle cx="303" cy="303" r="300" fill="#fff" stroke="none"/>
+<circle cx="303" cy="303" r="288" fill="#01619e" stroke="none"/>
+<path d="M558,303 438,183 318,183 398,263 58,263 58,343 398,343 318,423 438,423" fill="#fff" stroke="none"/>
+</svg>

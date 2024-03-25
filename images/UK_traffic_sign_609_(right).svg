@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="606mm"
+   height="606mm"
+   viewBox="0 0 606 606"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="111.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#111111"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     width="606mm"
+     inkscape:zoom="0.27464869"
+     inkscape:cx="1429.0984"
+     inkscape:cy="1017.6637"
+     inkscape:window-width="1920"
+     inkscape:window-height="1057"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,309)">
+    <circle
+       style="fill:#000000;fill-rule:evenodd;stroke:none;stroke-width:0.810509"
+       id="path902"
+       cx="303"
+       cy="-5.9999743"
+       r="302" />
+    <circle
+       style="fill:#ffffff;fill-rule:evenodd;stroke:none;stroke-width:0.805142"
+       id="circle1243"
+       cx="303"
+       cy="-5.9999743"
+       r="300" />
+    <circle
+       style="fill:#01619e;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.772936"
+       id="circle1335"
+       cx="303"
+       cy="-5.9999743"
+       r="288" />
+    <path
+       id="rect1097"
+       style="fill:#ffffff;fill-rule:evenodd;stroke:none;stroke-width:0.521851"
+       d="M 163,206.00006 V -90.999856 c 0,-27.700004 22.30005,-50.000044 50.00005,-50.000044 H 408 l -65,-65.00005 h 99.99999 L 543,-105.99994 442.99999,-5.9999368 H 343 L 408,-71.000036 H 242.99977 c -5.54,0 -9.99991,4.4599 -9.99991,9.9999 V 206.00006 Z"
+       sodipodi:nodetypes="csscccccccsscc" />
+  </g>
+</svg>

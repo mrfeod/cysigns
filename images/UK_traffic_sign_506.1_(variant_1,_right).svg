@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="681" height="602.12" fill-rule="evenodd">
+<path d="M46.019,601.088 7.048,533.588 301.529,23.532 379.471,23.532 673.952,533.588 634.981,601.088" fill="#e31017" stroke="none"/>
+<circle cx="340.5" cy="46.032" r="45" fill="#e31017" stroke="none"/>
+<circle cx="634.981" cy="556.088" r="45" fill="#e31017" stroke="none"/>
+<circle cx="46.019" cy="556.088" r="45" fill="#e31017" stroke="none"/>
+<path d="M72,541.088 340.5,76.032 609,541.088" fill="#fff" stroke="none"/>
+<path d="M275.5,521.088 275.5,261.088 325.5,211.088 375.5,261.088 375.5,361.088 450.5,361.088 450.5,411.088 375.5,411.088 375.5,521.088" fill="#000" stroke="none"/>
+</svg>

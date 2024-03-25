@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="485" height="485" fill-rule="evenodd">
+<rect width="483" height="483" rx="37.5" ry="37.5" x="1" y="1" fill="#000" stroke="none"/>
+<rect width="480" height="480" rx="36" ry="36" x="2.5" y="2.5" fill="#fff" stroke="none"/>
+<rect width="444" height="444" rx="18" ry="18" x="20.5" y="20.5" fill="#007ac2" stroke="none"/>
+<rect width="60" height="300" x="212.5" y="128.5" fill="#fff" stroke="none"/>
+<rect width="240" height="96" x="122.5" y="68.5" fill="#fff" stroke="none"/>
+<rect width="228" height="84" x="128.5" y="74.5" fill="#ed1d24" stroke="none"/>
+</svg>

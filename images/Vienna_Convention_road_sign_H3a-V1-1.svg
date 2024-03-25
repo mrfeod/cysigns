@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="69mm"
+   height="26mm"
+   viewBox="0 0 69 26"
+   version="1.1"
+   id="svg833"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="Vienna Convention road sign H3a-V1-1.svg">
+  <defs
+     id="defs827" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.3473793"
+     inkscape:cx="38.422315"
+     inkscape:cy="58.138847"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata830">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-271)">
+    <rect
+       ry="3"
+       rx="3"
+       y="271.5"
+       x="0.5"
+       height="25"
+       width="68"
+       id="rect922"
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:14.77345657;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers" />
+    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:13.54957581;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       id="rect924"
+       width="65"
+       height="22"
+       x="2"
+       y="273"
+       rx="1.5000002"
+       ry="1.5" />
+    <g
+       id="g4792"
+       transform="translate(-0.5)">
+      <path
+         sodipodi:nodetypes="cccccccc"
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.06001336"
+         id="path3807"
+         d="m 15.022731,277.01786 -0.79546,4.53401 h 25.77273 v 5.25 H 14.227271 L 15.022731,291.336 5,284.17688 Z"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4779"
+         d="m 49.222404,288.22915 c -0.713091,-0.18855 -1.182536,-0.56483 -1.539351,-1.2337 -0.171925,-0.32231 -0.189903,-0.6163 -0.189903,-3.10516 0,-2.74862 4.8e-5,-2.74934 0.259868,-3.25419 0.366434,-0.71205 0.978222,-1.07647 1.920273,-1.14384 1.275054,-0.0912 2.123854,0.27977 2.57625,1.12608 0.215679,0.40359 0.229659,0.56293 0.259978,2.96564 0.02079,1.64488 -0.0082,2.70187 -0.08223,3.0008 -0.267456,1.0802 -0.960031,1.60886 -2.205234,1.68344 -0.38198,0.0238 -0.831825,0.01 -0.999664,-0.0393 z m 1.545573,-1.58071 0.285403,-0.24531 0.03067,-2.34747 c 0.02614,-1.99842 0.0061,-2.3991 -0.134292,-2.69514 -0.197302,-0.41583 -0.623787,-0.61895 -1.127851,-0.5371 -0.85484,0.13865 -0.955597,0.46237 -0.955597,3.06955 0,2.73368 0.0977,2.99089 1.138689,2.99767 0.360898,0.006 0.547197,-0.0567 0.76291,-0.2422 z m -6.580754,-1.94171 c 0,-1.93018 -0.02441,-3.50939 -0.05424,-3.50939 -0.02982,0 -0.281597,0.11528 -0.559459,0.25607 l -0.505228,0.25601 0.0018,-0.73921 0.0018,-0.73917 0.601921,-0.33061 c 0.506827,-0.27834 0.707515,-0.3306 1.270305,-0.3306 h 0.668392 v 4.32314 4.32311 h -0.712165 -0.712044 z m 12.206503,0.40685 v -3.1024 h 0.712046 0.712044 v 0.3966 0.39681 l 0.33674,-0.33673 c 0.789761,-0.78985 2.135057,-0.66935 2.801562,0.25068 l 0.286114,0.39494 0.177673,-0.30076 c 0.302601,-0.51226 0.89871,-0.83288 1.564314,-0.84151 0.783234,-0.0108 1.302839,0.26669 1.699759,0.90545 l 0.305163,0.49112 0.03207,2.42417 0.03207,2.42413 h -0.667837 -0.667842 l -0.0016,-1.85639 c -3.06e-4,-1.02102 -0.04768,-2.02602 -0.105223,-2.23325 -0.225541,-0.8121 -1.243326,-1.08697 -1.834731,-0.49557 l -0.297298,0.29731 v 2.14394 2.14396 h -0.704529 -0.704678 l -0.03278,-2.14466 -0.03276,-2.14466 -0.332197,-0.29667 c -0.471948,-0.42135 -1.135628,-0.42109 -1.557464,0.002 l -0.297333,0.29731 v 2.14391 2.14397 H 57.105047 56.393 Z"
+         style="fill:#000000;stroke-width:0.10172091" />
+    </g>
+  </g>
+</svg>

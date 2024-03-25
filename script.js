@@ -23,6 +23,8 @@ function hideAnswer() {
 function showQuestion() {
   document.getElementById('question').innerText = currentQuestion + 1;
   document.getElementById('total').innerText = signs.length;
+  document.getElementById('correct').innerText = correctCount;
+  document.getElementById('incorrect').innerText = incorrectCount;
 
   let question = getRandomQuestion();
   document.getElementById('signImage').src = question.image;
@@ -63,8 +65,6 @@ function showQuestion() {
           incorrectCount++;
           showAnswer();
         }
-        document.getElementById('correct').innerText = correctCount;
-        document.getElementById('incorrect').innerText = incorrectCount;
         if (toNext) nextQuestion();
       };
       answersDiv.appendChild(answer);

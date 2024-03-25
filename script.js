@@ -27,6 +27,7 @@ function showQuestion() {
     answer.onclick = function() {
       let toNext = false;
       if (this.innerText === question.name) {
+        toNext = true;
         correctCount++;
       } else {
         incorrectCount++;

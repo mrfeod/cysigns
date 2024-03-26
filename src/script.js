@@ -3,6 +3,7 @@ let correctCount = 0;
 let incorrectCount = 0;
 const buttonsCount = 4;
 const answersDisplay = getElementDisplay('answers');
+const answerTextDisplay = getElementDisplay('answerText');
 const showAnswerButtonDisplay = getElementDisplay('showAnswerButton');
 
 const Mode = {
@@ -78,10 +79,12 @@ function showQuestion() {
 
   if (mode === Mode.TEST) {
     setElementDisplay('answers', 'none');
+    setElementDisplay('answerText', answerTextDisplay);
     setElementDisplay('showAnswerButton', showAnswerButtonDisplay);
     showSpacers();
   } else {
     hideSpacers();
+    setElementDisplay('answerText', 'none');
     setElementDisplay('showAnswerButton', 'none');
     setElementDisplay('answers', answersDisplay);
 

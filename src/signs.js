@@ -24,19 +24,19 @@ let signs = [
   {'image': 'images/UK_traffic_sign_510.svg', 'name': 'Roundabout'},
   {
     'image': 'images/UK_traffic_sign_512_(right).svg',
-    'name': 'Bend to right (left if symbol reversed)'
+    'name': 'Bend to right (left if reversed)'
   },
   {
     'image': 'images/UK_traffic_sign_513_(left).svg',
-    'name': 'Double bend first to the left (right if symbol reversed)'
+    'name': 'Double bend first to the left (right if reversed)'
   },
   {
     'image': 'images/UK_traffic_sign_512.1_(right).svg',
-    'name': 'Junction on a bend (symbols may be reversed)'
+    'name': 'Junction on a bend (may be reversed)'
   },
   {
     'image': 'images/UK_traffic_sign_512.2_(right).svg',
-    'name': 'Junction on a bend (symbols may be reversed)'
+    'name': 'Junction on a bend (may be reversed)'
   },
   {
     'image': 'images/UK_traffic_sign_516.svg',
@@ -44,7 +44,7 @@ let signs = [
   },
   {
     'image': 'images/UK_traffic_sign_517_(right).svg',
-    'name': 'Road narrows on the right (left if symbols reversed)'
+    'name': 'Road narrows on the right (left if reversed)'
   },
   {
     'image': 'images/UK_traffic_sign_520.svg',
@@ -100,13 +100,13 @@ let signs = [
   {'image': 'images/UK_traffic_sign_554.2.svg', 'name': 'Ice or Snowdrifts'},
   {
     'image': 'images/UK_traffic_sign_562.svg',
-    'name': 'Other dangers (plate must be used to indicate the hazard)'
+    'name': 'Other dangers (must be used to indicate the hazard)'
   },
   {'image': 'images/UK_traffic_sign_544.svg', 'name': 'Zebra crossing'},
   {'image': 'images/UK_traffic_sign_544.1.svg', 'name': 'Pedestrians ahead'},
   {
     'image': 'images/UK_traffic_sign_544.2.svg',
-    'name': 'Frail pedestrians likely to cross'
+    'name': 'Frail/blind/disabled pedestrians likely to cross'
   },
   {
     'image': 'images/Cyprus_warning_road_sign_child.svg',
@@ -436,7 +436,7 @@ let signs = [
   },
   {
     'image': 'images/Cyprus_road_sign_drive_on_the_left.svg',
-    'name': 'Warning for driving on the left (in Akrotiri and Dhekelia)'
+    'name': 'Warning for driving on the left'
   },
   {
     'image': 'images/Cyprus_road_sign_vehicles_exit.svg',
@@ -458,37 +458,35 @@ let signs = [
   {
     'image': 'images/Vienna_Convention_road_sign_H4a-V1-1.svg',
     'name':
-        'Principle of validity of a no stopping and parking sign placed perpendicular to the axis of the street'
+        'A no stop and parking sign placed perpendicular to the axis of the street'
   },
   {
     'image': 'images/Vienna_Convention_road_sign_H4b-V1-1.svg',
     'name':
-        'Repetition of the validity of a stop and parking prohibition sign placed perpendicular to the axis of the street'
+        'Repetition of a no stop and parking sign placed perpendicular to the axis of the street'
   },
   {
     'image': 'images/Vienna_Convention_road_sign_H4c-V1-1.svg',
     'name':
-        'End of validity of a stop and parking prohibition sign placed perpendicular to the axis of the street'
+        'End of a no stop and parking sign placed perpendicular to the axis of the street'
   },
   {
     'image': 'images/Vienna_Convention_road_sign_H1-V1-1.svg',
-    'name':
-        'Distance from the sign to the dangerous point or area of prohibition or restriction'
+    'name': 'Distance from the sign to the signed area'
   },
   {
     'image': 'images/Vienna_Convention_road_sign_H2-V1-1.svg',
-    'name':
-        'Length of the hazardous section or area in which a prohibition or restriction applies'
+    'name': 'Length of the hazardous section of prohibition or restriction area'
   },
   {
     'image': 'images/Vienna_Convention_road_sign_H3a-V1-1.svg',
     'name':
-        'Principle of validity of a no stopping and parking sign placed parallel to the axis of the street. The validity of the plate extends over [e.g. 10 m] from the position of the sign and in the direction of the arrow'
+        'A no stop and parking sign from the position of the sign and in the direction of the arrow'
   },
   {
     'image': 'images/Vienna_Convention_road_sign_H3b-V1-1.svg',
     'name':
-        'Reminder of the validity of a no stopping and parking sign placed parallel to the axis of the street. The validity of the plate extends over (e.g. 5m) on both sides of the sign\'s location.'
+        'Reminder of a no stop and parking sign placed parallel to the axis of the street'
   },
   {
     'image': 'images/Vienna_Convention_road_sign_H9-V1-1.svg',
@@ -500,8 +498,7 @@ let signs = [
   },
   {
     'image': 'images/City_speed_limit_sign_in_Polis,_Cyprus.svg',
-    'name':
-        'Entering a residential area - The speed limit is limited to a certain percentage. For example, entrance to the settlement ofPolis, where the limit is set at 50 km/h.'
+    'name': 'Entering a residential area - The speed is limited'
   },
   {'image': 'images/Highway_begin_in_Cyprus.png', 'name': 'Highway'},
   {
@@ -512,15 +509,15 @@ let signs = [
   {'image': 'images/UK_traffic_sign_955.svg', 'name': 'Cycle lane'},
   {
     'image': 'images/UK_traffic_sign_957.svg',
-    'name': 'Cycle path separated from pedestrian path.'
+    'name': 'Cycle path separated from pedestrian path'
   },
   {
     'image': 'images/UK_traffic_sign_957R.svg',
-    'name': 'Cycle path separated from pedestrian path. (Alternative)'
+    'name': 'Cycle path separated from pedestrian path (alternative)'
   },
   {
     'image': 'images/UK_traffic_sign_956.svg',
-    'name': 'Road shared by cyclists and pedestrians.'
+    'name': 'Road shared by cyclists and pedestrians'
   },
   {
     'image': 'images/UK_traffic_sign_953.svg',
@@ -529,17 +526,16 @@ let signs = [
   {'image': 'images/UK_traffic_sign_951.svg', 'name': 'No bicycles allowed'},
   {
     'image': 'images/UK_traffic_sign_950.svg',
-    'name': 'Road with special measures for cyclists.'
+    'name': 'Road with special measures for cyclists'
   },
   {'image': 'images/UK_traffic_sign_879.svg', 'name': 'Speed camera'},
   {
     'image': 'images/Roundabout_road_sign_in_Cyprus1.svg',
     'name':
-        'Roundabout sign leading to Nicosia, Larnaca, Athienou and the Turkish-occupied areas.'
+        'Roundabout sign leading to population centres and the Turkish-occupied areas'
   },
   {
     'image': 'images/Warning_sign_in_Cyprus.png',
-    'name':
-        '"Stop \u2014 Turkish occupied area". Sign of the Republic of Cyprus, where it is placed on the green cease-fire line.'
+    'name': 'Stop — Turkish occupied area'
   }
 ]

@@ -61,8 +61,8 @@ body {
 }
 
 #answerText {
-    min-height: 7vh;
-    font-size: 1.5rem;
+    min-height: 6vh;
+    font-size: 1.2rem;
 }
 
 #selfTest {

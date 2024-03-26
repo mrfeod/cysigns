@@ -2,10 +2,25 @@ let currentQuestion = 0;
 let correctCount = 0;
 let incorrectCount = 0;
 
+let answersDisplay = getElementDisplay('answers');
+let showAnswerButtonDisplay = getElementDisplay('showAnswerButton');
+
 const Mode = {
   LEARN: 'LEARN',
   TEST: 'TEST',
 };
+
+function getElementDisplay(elementId) {
+  return document.getElementById(elementId).style.display;
+}
+
+function setElementDisplay(elementId, display) {
+  return document.getElementById(elementId).style.display = display;
+}
+
+function setElementText(elementId, text) {
+  return document.getElementById(elementId).innerText = text;
+}
 
 function getRandomAnswers() {
   let answers = [...signs];
@@ -16,45 +31,61 @@ function getRandomAnswers() {
 let showAnswer = function() {}
 
 function hideAnswer() {
-  let answerText = document.getElementById('answer');
+  let answerText = document.getElementById('answerText');
   answerText.innerText = '';
 }
 
+function setSpacersDisplay(display) {
+  var elements = document.getElementsByClassName('spacer');
+  for (var i = 0; i < elements.length; i++) {
+    elements[i].style.display = display;
+  }
+}
+
+function hideSpacers() {
+  setSpacersDisplay('none');
+}
+
+function showSpacers() {
+  setSpacersDisplay('block');
+}
+
 function showQuestion() {
-  document.getElementById('question').innerText = currentQuestion + 1;
-  document.getElementById('total').innerText = signs.length;
-  document.getElementById('correct').innerText = correctCount;
-  document.getElementById('incorrect').innerText = incorrectCount;
+  setElementText('question', currentQuestion + 1);
+  setElementText('total', signs.length);
+  setElementText('correct', correctCount);
+  setElementText('incorrect', incorrectCount);
 
   let question = getRandomQuestion();
-  document.getElementById('signImage').src = question.image;
+  let image = document.getElementById('signImage');
+  image.src = question.image;
+  image.alt = question.name;
   hideAnswer();
 
   let modeVal = document.getElementById('mode').checked;
   let mode = modeVal ? Mode.TEST : Mode.LEARN;
 
-  let answersDiv = document.getElementById('answers');
-  answersDiv.innerHTML = '';
-
   showAnswer = function() {
-    let answerText = document.getElementById('answer');
+    let answerText = document.getElementById('answerText');
     answerText.innerText = `${question.name}`;
   };
 
   if (mode === Mode.TEST) {
-    document.getElementById('answers').style.display = 'none';
-    document.getElementById('showAnswerButton').style.display = 'block';
+    setElementDisplay('answers', 'none');
+    setElementDisplay('showAnswerButton', showAnswerButtonDisplay);
+    showSpacers();
   } else {
-    document.getElementById('showAnswerButton').style.display = 'none';
-    document.getElementById('answers').style.display = 'grid';
+    hideSpacers();
+    setElementDisplay('showAnswerButton', 'none');
+    setElementDisplay('answers', answersDisplay);
+
     let answers = getRandomAnswers();
     if (!answers.find(answer => answer.name === question.name)) {
       answers[0] = question;
       answers.sort(() => Math.random() - 0.5);
     }
     for (let i = 0; i < answers.length; i++) {
-      let answer = document.createElement('button');
-      answer.className = 'answer';
+      let answer = document.getElementById('answerButton' + (i + 1));
       answer.innerText = answers[i].name;
       answer.onclick = function() {
         let toNext = false;
@@ -67,7 +98,6 @@ function showQuestion() {
         }
         if (toNext) nextQuestion();
       };
-      answersDiv.appendChild(answer);
     }
   }
 }

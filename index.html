@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="utf-8" />
@@ -9,157 +9,119 @@
     <link rel="icon" type="image/png" sizes="32x32" href="icon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="icon/favicon-16x16.png">
     <link rel="manifest" href="icon/site.webmanifest">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre.min.css">
     <style>
-        @media (orientation: portrait) {
-            * {
-                font-size: 1.2rem;
-            }
+        body {
+            background-color: #f1f1fc;
         }
 
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f2f2f2;
-            padding: 0;
+        .container {
             display: flex;
             flex-direction: column;
             align-items: center;
-            justify-content: center;
             height: 100vh;
-            margin: 0;
-        }
-
-        #selfTest {
-            position: fixed;
-            bottom: 10px;
-            right: 10px;
-            display: flex;
-            background-color: #ccc;
-            padding: 5px;
-            border-radius: 5px;
-            border: #555;
-            opacity: 0.5;
-        }
-
-        #selfTest p {
-            font-size: x-small;
-        }
-
-        #score {
-            text-align: center;
-            width: 80vw;
         }
 
         #signContainer {
             display: flex;
-            justify-content: center;
             align-items: center;
-            height: 40vh;
-            min-height: 40vh;
-            max-height: 40vh;
+            height: 30vh;
+            min-height: 30vh;
+            max-height: 30vh;
             width: auto;
         }
 
-        #signImage {
-            text-align: center;
+        .sign-image {
             height: 40vmin;
-            min-height: 40vmin;
-            max-height: 40vh;
-            max-width: 80vw;
-            display: block;
+            min-height: 30vmin;
+            max-height: 30vh;
+            max-width: 100vw;
         }
 
-        #answers {
+        .button-grid {
+            flex: 25;
             display: grid;
+            align-items: center;
+            justify-content: center;
             grid-template-columns: repeat(2, 1fr);
             grid-template-rows: repeat(2, 1fr);
-            margin-top: 20px;
-            gap: 10px;
-            justify-items: center;
-            height: 25vh;
-            min-height: 25vh;
-            width: auto;
+            gap: 0.5rem;
+            max-height: 50vh;
+            width: 100%;
         }
 
-        .answer {
-            width: 40vw;
-            min-width: 200px;
-            min-height: 64px;
-            padding: 10px;
-            background-color: #fff;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            text-align: center;
-            cursor: pointer;
+        .button-grid .btn {
+            width: 100%;
+            height: 100%;
+            white-space: wrap;
+            font-size: 1.2rem;
         }
 
-        .answer:hover {
-            background-color: #eee;
+        .button-line {
+            flex: 5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
 
-
-        #answer {
-            text-align: center;
-            margin-top: 10px;
-            font-weight: bold;
-        }
-
-        #nextButton,
-        #showAnswerButton {
-            display: block;
-            margin: 0 auto;
-            margin-top: 10px;
-            padding: 10px 20px;
-            background-color: #333;
-            color: #fff;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            min-width: 120px;
+        .button-line .btn {
+            margin: 0 10px 20px;
             min-height: 48px;
+            min-width: 128px;
         }
 
-        #nextButton:hover,
-        #showAnswerButton:hover {
-            background-color: #555;
+        .spacer {
+            height: 100%;
         }
 
-        p small {
-            color: gainsboro;
+        #answerText {
+            min-height: 7vh;
+            font-size: 1.5rem;
         }
 
-        a {
-            color: gainsboro;
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
+        #selfTest {
+            position: fixed;
+            bottom: 5px;
+            right: 5px;
+            opacity: 0.7;
         }
     </style>
 </head>
 
 <body>
-    <div id="selfTest">
-        <p>Self-test:</p><input id="mode" type="checkbox" title="Test mode" onclick="switchMode()">
+    <div id="selfTest" class="form-group">
+        <label class="form-switch">
+            <input id="mode" type="checkbox" class="input-sm" onclick="switchMode()">
+            <i class="form-icon"></i>Self-test
+        </label>
     </div>
-    <div id="score">
-        <p>Question <span id="question">0</span> of <span id="total">0</span>: ✅<span id="correct">0</span>/❌<span
-                id="incorrect">0</span></p>
+    <div class="container">
+        <div id="score" class="text-center">Question <span id="question">0</span> of <span id="total">0</span>: ✅<span
+                id="correct">0</span>/❌<span id="incorrect">0</span></div>
+        <div class="spacer"></div>
+        <figure id="signContainer" class="figure">
+            <img id="signImage" class="sign-image">
+        </figure>
+        <div id="answers" class="button-grid">
+            <button id="answerButton1" class="btn">Button 1</button>
+            <button id="answerButton2" class="btn">Button 2</button>
+            <button id="answerButton3" class="btn">Button 3</button>
+            <button id="answerButton4" class="btn">Button 4</button>
+        </div>
+        <div id="answerText" class="text-center"></div>
+        <div class="spacer"></div>
+        <div class="button-line">
+            <button id="showAnswerButton" class="btn btn-primary" onclick="showAnswer()">Show answer</button>
+            <button id="nextButton" class="btn btn-primary" onclick="nextQuestion()">Next</button>
+        </div>
+        <div class="text-center">
+            <a href="https://en.wikipedia.org/wiki/Road_signs_in_Cyprus">Based on Wikipedia💡</a> <a href="#"
+                onClick="window.open('https://buy.stripe.com/8wMaIJaN68zif5K3cc', '_blank')">Say «Thank you»🤑</a>
+        </div>
     </div>
-    <div id="signContainer"> <img id="signImage" src="" alt="Road Sign">
-    </div>
-    <div id="answers">
-        <!-- Options will be populated here -->
-    </div>
-    <p id="answer"></p>
-    <button id="showAnswerButton" onclick="showAnswer()">Show answer</button>
-    <button id="nextButton" onclick="nextQuestion()">Next</button>
     <script src="signs.js"></script>
     <script src="script.js"></script>
-    <p style="color:gainsboro;"><small>Based on <a style="color:gainsboro;"
-                href="https://en.wikipedia.org/wiki/Road_signs_in_Cyprus">wikipedia.org/wiki/Road_signs_in_Cyprus</a></small>
-    </p>
-
 </body>
 
 </html>

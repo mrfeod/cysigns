@@ -532,17 +532,6 @@ let signs = [
     'name': 'Road with special measures for cyclists.'
   },
   {'image': 'images/UK_traffic_sign_879.svg', 'name': 'Speed camera'},
-  {'image': 'images/Turkish_Stop_Sign.svg', 'name': 'Turkish stop sign'},
-  {
-    'image': 'images/Turkish_republic_of_Northern_Cyprus_border_sign.png',
-    'name':
-        '"Turkish Republic of Northern Cyprus" \u2014 TRNC sign, where it is placed at the "border" customs with the free piece'
-  },
-  {
-    'image': 'images/Turkish_republic_of_Northern_Cyprus_border_sign1.png',
-    'name':
-        '"Welcome to the Turkish Republic of Northern Cyprus" \u2014 TRNC sign, where it is placed at the "border" customs with the free piece'
-  },
   {
     'image': 'images/Roundabout_road_sign_in_Cyprus1.svg',
     'name':
@@ -552,14 +541,5 @@ let signs = [
     'image': 'images/Warning_sign_in_Cyprus.png',
     'name':
         '"Stop \u2014 Turkish occupied area". Sign of the Republic of Cyprus, where it is placed on the green cease-fire line.'
-  },
-  {
-    'image': 'images/Road_sign_(North_Cyprus).JPG',
-    'name':
-        'Turkish language car ban sign. The Turkish text means "Vehicles may not enter"'
-  },
-  {
-    'image': 'images/Zyamet_(Leonarisso).JPG',
-    'name': 'Turkish direction sign forLeonarisso(Ziyamet)'
   }
 ]

@@ -1,0 +1,74 @@
+body {
+          background-color: #eee;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+#signContainer {
+    display: flex;
+    align-items: center;
+    height: 30vh;
+    min-height: 30vh;
+    max-height: 30vh;
+    width: auto;
+}
+
+.sign-image {
+    height: 40vmin;
+    min-height: 30vmin;
+    max-height: 30vh;
+    max-width: 100vw;
+}
+
+.button-grid {
+    flex: 25;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 0.5rem;
+    max-height: 50vh;
+    width: 100%;
+}
+
+.button-grid .btn {
+    width: 100%;
+    height: 100%;
+    white-space: wrap;
+    font-size: 1.2rem;
+}
+
+.button-line {
+    flex: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-line .btn {
+    margin: 0 10px 20px;
+    min-height: 48px;
+    min-width: 128px;
+}
+
+.spacer {
+    height: 100%;
+}
+
+#answerText {
+    min-height: 7vh;
+    font-size: 1.5rem;
+}
+
+#selfTest {
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    opacity: 0.7;
+}

@@ -4,6 +4,13 @@
 
 This repo contains a road signs test based on [«Road signs in Cyprus» Wikipedia article](https://en.wikipedia.org/wiki/Road_signs_in_Cyprus).
 
+- [About the test](#about-the-test)
+  - [Additional information for Cyprus driving license applicants](#additional-information-for-cyprus-driving-license-applicants)
+  - [Thirdparty alternatives](#thirdparty-alternatives)
+- [Technical details](#technical-details)
+  - [The Data](#the-data)
+  - [Thirdparty dependencies](#thirdparty-dependencies)
+
 ## About the test
 The test has two modes: ***Learning*** and ***Self-test***.
 
@@ -13,7 +20,17 @@ The ***Self-test*** mode could be activated in the bottom right corner and allow
 
 **[Try the test here. Good luck!](https://mrfeod.github.io/cysigns/)**
 
-## The Data
+#### Additional information for Cyprus driving license applicants
+- [Cyprus Driving](https://www.cyprusdriving.net/) - great source for people who are looking to get a driving license in Cyprus.
+- [Alex Driving School Traffic Signs](https://alexdrivingschoolnicosia.com/traffic-signs.html) - several pdfs with traffic signs and highway code.
+
+#### Thirdparty alternatives
+- [Cyprus Road Signs](https://cysigns.online/) - site with several Cyprus road signs tests.
+- [Road Signs Cy Bot](https://t.me/roadsignscybot) - Telegram bot.
+
+## Technical details
+
+### The Data
 Data scrapping utility provided here: [utils/parse_data.py](utils/parse_data.py)
 
 The script artifacts are `data.json` and `images` directory with road signs images.
@@ -22,10 +39,6 @@ You can see road signs in the [images](images) directory and the content of `dat
 
 **The data has minor inaccuracies and I hope you provide a PR to fix them.**
 
-## Additional information for Cyprus driving license applicants
-- [Cyprus Driving](https://www.cyprusdriving.net/) - great source for people who are looking to get a driving license in Cyprus.
-- [Alex Driving School Traffic Signs](https://alexdrivingschoolnicosia.com/traffic-signs.html) - several pdfs with traffic signs and highway code.
+### Thirdparty dependencies
+Look and feel based on [Spectre.css](https://github.com/picturepan2/spectre/tree/v0.5.9). Purple colors changed to grayshades.
 
-## Thirdparty alternatives
-- [Cyprus Road Signs](https://cysigns.online/) - site with several Cyprus road signs tests.
-- [Road Signs Cy Bot](https://t.me/roadsignscybot) - Telegram bot.

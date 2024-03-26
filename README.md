@@ -18,10 +18,14 @@ Data scrapping utility provided here: [utils/parse_data.py](utils/parse_data.py)
 
 The script artifacts are `data.json` and `images` directory with road signs images.
 
-You can see road signs in the [images](images) directory and content of `data.json` in [signs.js](signs.js).
+You can see road signs in the [images](images) directory and the content of `data.json` in [signs.js](signs.js).
 
 **The data has minor inaccuracies and I hope you provide a PR to fix them.**
 
-## Additional information for cyprus driving license applicants
-- [Cyprus Driving](https://www.cyprusdriving.net/) - great sourse for people who are looking to get a driving license in Cyprus.
+## Additional information for Cyprus driving license applicants
+- [Cyprus Driving](https://www.cyprusdriving.net/) - great source for people who are looking to get a driving license in Cyprus.
 - [Alex Driving School Traffic Signs](https://alexdrivingschoolnicosia.com/traffic-signs.html) - several pdfs with traffic signs and highway code.
+
+## Thirdparty alternatives
+- [Cyprus Road Signs](https://cysigns.online/) - site with several Cyprus road signs tests.
+- [Road Signs Cy Bot](https://t.me/roadsignscybot) - Telegram bot.

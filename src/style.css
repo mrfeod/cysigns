@@ -14,16 +14,16 @@ body {
 #signContainer {
     display: flex;
     align-items: center;
-    height: 25vh;
-    min-height: 25vh;
-    max-height: 25vh;
+    height: 40vh;
+    min-height: 40vh;
+    max-height: 40vh;
     width: auto;
 }
 
 .sign-image {
     height: 40vmin;
-    min-height: 25vmin;
-    max-height: 25vh;
+    min-height: 40vmin;
+    max-height: 40vh;
     max-width: 100%;
 }
 
@@ -35,8 +35,8 @@ body {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     grid-template-rows: repeat(2, minmax(0, 1fr));
     gap: 0.5rem;
-    min-height: 50vh;
-    max-height: 50vh;
+    min-height: 30vh;
+    max-height: 30vh;
     width: 100%;
 }
 
@@ -77,8 +77,21 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
+    #signContainer {
+        height: 25vh;
+        min-height: 25vh;
+        max-height: 25vh;
+    }
+
+    .sign-image {
+        min-height: 25vmin;
+        max-height: 25vh;
+    }
+
     .button-grid {
         grid-template-columns: repeat(1, minmax(0, 1fr));
         grid-template-rows: repeat(4, minmax(0, 1fr));
+        min-height: 50vh;
+        max-height: 50vh;
     }
 }

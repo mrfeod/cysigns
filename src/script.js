@@ -54,8 +54,6 @@ function showSpacers() {
 function showQuestion() {
   setElementText('question', currentQuestion + 1);
   setElementText('total', signs.length);
-  setElementText('correct', correctCount);
-  setElementText('incorrect', incorrectCount);
   hideAnswer();
 
   for (let i = 0; i < buttonsCount; i++) {
@@ -114,6 +112,8 @@ function showQuestion() {
           incorrectCount++;
           button.classList.add('btn-error');
         }
+        setElementText('correct', correctCount);
+        setElementText('incorrect', incorrectCount);
       };
     }
   }

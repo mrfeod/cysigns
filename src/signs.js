@@ -185,10 +185,7 @@ let signs = [
     'image': 'images/UK_traffic_sign_811.svg',
     'name': 'Traffic has priority over vehicles from the opposite direction'
   },
-  {
-    'image': 'images/UK_traffic_sign_617.svg',
-    'name': 'Road closed to all vehicles in both directions'
-  },
+  {'image': 'images/UK_traffic_sign_617.svg', 'name': 'No vehicles'},
   {
     'image': 'images/Cyprus_road_sign_maximum_large.svg',
     'name': 'No vehicles exceeding width on the sign'
@@ -199,25 +196,16 @@ let signs = [
   },
   {
     'image': 'images/UK_traffic_sign_622.1A.svg',
-    'name': 'No goods vehicles exceeding weight on the sign'
+    'name': 'No heavy vehicles exceeding weight on the sign'
   },
   {
     'image': 'images/Cyprus_road_sign_no_heavy_vehicles.svg',
-    'name': 'No goods veicles'
+    'name': 'No heavy vehicles'
   },
   {'image': 'images/UK_traffic_sign_622.7.svg', 'name': 'No towed caravans'},
-  {
-    'image': 'images/UK_traffic_sign_616.svg',
-    'name': 'No Entryfor vehicular traffic'
-  },
-  {
-    'image': 'images/UK_traffic_sign_612.svg',
-    'name': 'No right turn for vehicular traffic'
-  },
-  {
-    'image': 'images/UK_traffic_sign_613.svg',
-    'name': 'No left turn for vehicular traffic'
-  },
+  {'image': 'images/UK_traffic_sign_616.svg', 'name': 'No Entry'},
+  {'image': 'images/UK_traffic_sign_612.svg', 'name': 'No right turn'},
+  {'image': 'images/UK_traffic_sign_613.svg', 'name': 'No left turn'},
   {
     'image': 'images/Cyprus_road_sign_maximum_speed.svg',
     'name': 'Maximum speed limit'
@@ -237,7 +225,7 @@ let signs = [
   },
   {
     'image': 'images/Cyprus_road_sign_no_overpass_heavy_vehicles.svg',
-    'name': 'No overtaking by vehicles'
+    'name': 'No overtaking by heavy vehicles'
   },
   {
     'image': 'images/Cyprus_road_sign_maximum_single_weight.svg',
@@ -263,10 +251,7 @@ let signs = [
     'image': 'images/UK_traffic_sign_622.8.svg',
     'name': 'Vehicles carrying explosives (such as fireworks) prohibited.'
   },
-  {
-    'image': 'images/UK_traffic_sign_614.svg',
-    'name': 'No U-turns for vehicular traffic'
-  },
+  {'image': 'images/UK_traffic_sign_614.svg', 'name': 'No U-turns'},
   {'image': 'images/Cyprus_road_sign_police.svg', 'name': 'Police'},
   {'image': 'images/Cyprus_road_sign_-_STOP.svg', 'name': 'Stop sign'},
   {
@@ -283,13 +268,13 @@ let signs = [
   },
   {
     'image': 'images/UK_traffic_sign_7024.svg',
-    'name': 'Go ahead or proceed for temporary road works using a hand sign'
+    'name': 'Go ahead (for manual traffic control)'
   },
   {'image': 'images/Cyprus_road_sign_give_way.svg', 'name': 'Give way'},
   {
     'image': 'images/Cyprus_road_sign_cross_guided.svg',
     'name':
-        'Controlled block stopping is prohibited except when waiting for a right turn'
+        'Controlled block, stopping is prohibited except when waiting for a right turn'
   },
   {'image': 'images/UK_traffic_sign_636.svg', 'name': 'No parking'},
   {'image': 'images/UK_traffic_sign_642.svg', 'name': 'No stopping'},
@@ -363,11 +348,7 @@ let signs = [
   },
   {
     'image': 'images/Cyprus_road_sign_road_bump_50.svg',
-    'name': 'Curving road surface, the speed limit is set at 50 km/h'
-  },
-  {
-    'image': 'images/Cyprus_road_sign_road_bump_30.svg',
-    'name': 'Curving road surface, the speed limit is set at 30 km/h'
+    'name': 'Curving road surface, the speed limit is set'
   },
   {
     'image': 'images/Cyprus_road_sign_humped_crossing.svg',
@@ -457,18 +438,17 @@ let signs = [
   },
   {
     'image': 'images/Vienna_Convention_road_sign_H4a-V1-1.svg',
-    'name':
-        'A no stop and parking sign placed perpendicular to the axis of the street'
+    'name': 'A no stop and parking sign placed perpendicular to the street'
   },
   {
     'image': 'images/Vienna_Convention_road_sign_H4b-V1-1.svg',
     'name':
-        'Repetition of a no stop and parking sign placed perpendicular to the axis of the street'
+        'Repetition of a no stop and parking sign placed perpendicular to the street'
   },
   {
     'image': 'images/Vienna_Convention_road_sign_H4c-V1-1.svg',
     'name':
-        'End of a no stop and parking sign placed perpendicular to the axis of the street'
+        'End of a no stop and parking sign placed perpendicular to the street'
   },
   {
     'image': 'images/Vienna_Convention_road_sign_H1-V1-1.svg',
@@ -481,12 +461,12 @@ let signs = [
   {
     'image': 'images/Vienna_Convention_road_sign_H3a-V1-1.svg',
     'name':
-        'A no stop and parking sign from the position of the sign and in the direction of the arrow'
+        'A no stop and parking sign from the position of the sign placed parallel to the street'
   },
   {
     'image': 'images/Vienna_Convention_road_sign_H3b-V1-1.svg',
     'name':
-        'Reminder of a no stop and parking sign placed parallel to the axis of the street'
+        'Reminder of a no stop and parking sign placed parallel to the street'
   },
   {
     'image': 'images/Vienna_Convention_road_sign_H9-V1-1.svg',

@@ -70,7 +70,6 @@ function enableAnswerButtons() {
 function showQuestion() {
   setElementText('question', currentQuestion + 1);
   setElementText('total', signs.length);
-  hideAnswer();
   enableAnswerButtons();
 
   const question = getRandomQuestion();
@@ -78,19 +77,18 @@ function showQuestion() {
   image.src = question.image;
   image.alt = question.name;
 
-  showAnswer = function() {
-    let answerText = document.getElementById('answerText');
-    answerText.innerText = `${question.name}`;
-  };
-
   const mode = document.getElementById('mode').checked ? Mode.TEST : Mode.LEARN;
-
   if (mode === Mode.TEST) {
     setElementDisplay('answers', 'none');
     setElementDisplay('answerText', answerTextDisplay);
     setElementDisplay('showAnswerButton', showAnswerButtonDisplay);
     showSpacers();
-  } else {
+    hideAnswer();
+    showAnswer = function() {
+      let answerText = document.getElementById('answerText');
+      answerText.innerText = `${question.name}`;
+    };
+  } else if (mode === Mode.LEARN) {
     hideSpacers();
     setElementDisplay('answerText', 'none');
     setElementDisplay('showAnswerButton', 'none');

@@ -1,6 +1,6 @@
 body {
     background-color: #eee;
-    overflow-x: hidden; 
+    overflow-x: hidden;
 }
 
 .container {
@@ -8,22 +8,22 @@ body {
     flex-direction: column;
     align-items: center;
     height: 100vh;
-    padding: 32px;
+    padding: 8px;
 }
 
 #signContainer {
     display: flex;
     align-items: center;
-    height: 30vh;
-    min-height: 30vh;
-    max-height: 30vh;
+    height: 25vh;
+    min-height: 25vh;
+    max-height: 25vh;
     width: auto;
 }
 
 .sign-image {
     height: 40vmin;
-    min-height: 30vmin;
-    max-height: 30vh;
+    min-height: 25vmin;
+    max-height: 25vh;
     max-width: 100%;
 }
 
@@ -35,6 +35,7 @@ body {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     grid-template-rows: repeat(2, minmax(0, 1fr));
     gap: 0.5rem;
+    min-height: 50vh;
     max-height: 50vh;
     width: 100%;
 }
@@ -55,8 +56,8 @@ body {
 
 .button-line .btn {
     margin: 5px 10px;
-    min-height: 48px;
-    min-width: 128px;
+    min-height: 32px;
+    min-width: 96px;
 }
 
 .spacer {

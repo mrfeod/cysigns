@@ -130,11 +130,11 @@ let signs = [
   {'image': 'images/UK_traffic_sign_772.svg', 'name': 'Tramway'},
   {
     'image': 'images/Cyprus_warning_road_sign_give_way_ahead.svg',
-    'name': 'Give way ahead (200 m)'
+    'name': 'Give way ahead'
   },
   {
     'image': 'images/Cyprus_warning_road_sign_stop_ahead.svg',
-    'name': 'Stop ahead (50 m)'
+    'name': 'Stop ahead'
   },
   {
     'image': 'images/Cyprus_warning_road_sign_distance_to_level_crossing.svg',
@@ -191,15 +191,15 @@ let signs = [
   },
   {
     'image': 'images/Cyprus_road_sign_maximum_large.svg',
-    'name': 'No vehicles with a maximum width beyond 2 meters'
+    'name': 'No vehicles exceeding width on the sign'
   },
   {
     'image': 'images/Cyprus_road_sign_maximum_height.svg',
-    'name': 'No vehicles with a maximum height exceeding 3.8 meters'
+    'name': 'No vehicles exceeding height on the sign'
   },
   {
     'image': 'images/UK_traffic_sign_622.1A.svg',
-    'name': 'No goods vehicles exceeding a weight of 7.5 t'
+    'name': 'No goods vehicles exceeding weight on the sign'
   },
   {
     'image': 'images/Cyprus_road_sign_no_heavy_vehicles.svg',

@@ -51,17 +51,27 @@ function showSpacers() {
   setSpacersDisplay('block');
 }
 
-function showQuestion() {
-  setElementText('question', currentQuestion + 1);
-  setElementText('total', signs.length);
-  hideAnswer();
+function disableAnswerButtons() {
+  for (let i = 0; i < buttonsCount; i++) {
+    const id = 'answerButton' + (i + 1);
+    document.getElementById(id).classList.add('disabled');
+  }
+}
 
+function enableAnswerButtons() {
   for (let i = 0; i < buttonsCount; i++) {
     let answer = document.getElementById('answerButton' + (i + 1));
     answer.classList.remove('btn-success');
     answer.classList.remove('btn-error');
     answer.classList.remove('disabled');
   }
+}
+
+function showQuestion() {
+  setElementText('question', currentQuestion + 1);
+  setElementText('total', signs.length);
+  hideAnswer();
+  enableAnswerButtons();
 
   const question = getRandomQuestion();
   let image = document.getElementById('signImage');
@@ -100,10 +110,7 @@ function showQuestion() {
       let button = document.getElementById(id);
       button.innerText = answers[i].name;
       button.onclick = function() {
-        for (let i = 0; i < buttonsCount; i++) {
-          const id = 'answerButton' + (i + 1);
-          document.getElementById(id).classList.add('disabled');
-        }
+        disableAnswerButtons();
         theAnswerButton.classList.add('btn-success');
         if (button === theAnswerButton) {
           correctCount++;
@@ -117,6 +124,8 @@ function showQuestion() {
       };
     }
   }
+
+  document.getElementById('nextButton').classList.remove('disabled');
 }
 
 function getRandomQuestion() {
@@ -133,11 +142,15 @@ function getRandomQuestion() {
 }
 
 function nextQuestion() {
+  document.getElementById('nextButton').classList.add('disabled');
   currentQuestion++;
   if (currentQuestion < signs.length) {
     showQuestion();
   } else {
-    alert('Test finished!');
+    disableAnswerButtons();
+    let answerText = document.getElementById('answerText');
+    answerText.style.display = answerTextDisplay;
+    answerText.innerText = 'Test finished!';
   }
 }
 
@@ -148,4 +161,17 @@ function switchMode() {
   showQuestion();
 }
 
-showQuestion();
+function preloadImages() {
+  for (let i = 0; i < signs.length; i++) {
+    let image = new Image();
+    image.src = signs[i].image;
+  }
+}
+
+function start() {
+  document.getElementById('nextButton').classList.add('disabled');
+  preloadImages();
+  showQuestion();
+};
+
+start();

@@ -389,19 +389,19 @@ let signs = [
   {'image': 'images/Cyprus_road_sign_road_humps.svg', 'name': 'Road humps'},
   {
     'image': 'images/Cyprus_road_sign_next_destinations.svg',
-    'name': 'Confirmation sign'
+    'name': 'Confirmation sign (with highway)'
   },
   {
     'image': 'images/Cyprus_road_sign_destinations_road_crossing.svg',
-    'name': 'Direction sign'
+    'name': 'Direction sign (at a road crossing)'
   },
   {
     'image': 'images/Cyprus_road_sign_destinations_white.svg',
-    'name': 'Direction sign'
+    'name': 'Direction sign (white)'
   },
   {
     'image': 'images/Cyprus_road_sign_destinations_blue.svg',
-    'name': 'Direction sign'
+    'name': 'Direction sign (blue)'
   },
   {'image': 'images/Cyprus_road_sign_bus_stop.svg', 'name': 'Bus stop'},
   {

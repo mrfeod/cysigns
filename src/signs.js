@@ -21,7 +21,7 @@ let signs = [
     'image': 'images/UK_traffic_sign_509.1.svg',
     'name': 'Traffic merges onto the main carriageway'
   },
-  {'image': 'images/UK_traffic_sign_510.svg', 'name': 'Roundabout'},
+  {'image': 'images/UK_traffic_sign_510.svg', 'name': 'Roundabout (warning)'},
   {
     'image': 'images/UK_traffic_sign_512_(right).svg',
     'name': 'Bend to right (left if reversed)'
@@ -120,7 +120,7 @@ let signs = [
     'image': 'images/UK_traffic_sign_550.1.svg',
     'name': 'Accompanied horses or ponies likely to be in or crossing the road'
   },
-  {'image': 'images/UK_traffic_sign_550.svg', 'name': 'Wild horsesor ponies'},
+  {'image': 'images/UK_traffic_sign_550.svg', 'name': 'Wild horses or ponies'},
   {'image': 'images/UK_traffic_sign_551.svg', 'name': 'Wild animals'},
   {
     'image': 'images/UK_traffic_sign_553.1.svg',
@@ -320,14 +320,17 @@ let signs = [
   {'image': 'images/UK_traffic_sign_610_(left).svg', 'name': 'Keep left'},
   {'image': 'images/UK_traffic_sign_610_(right).svg', 'name': 'Keep right'},
   {'image': 'images/UK_traffic_sign_611.svg', 'name': 'Pass on either side'},
-  {'image': 'images/UK_traffic_sign_611.1.svg', 'name': 'Roundabout'},
+  {
+    'image': 'images/UK_traffic_sign_611.1.svg',
+    'name': 'Roundabout (mandatory)'
+  },
   {
     'image': 'images/Cyprus_road_sign_one_way_road.svg',
     'name': 'One-way traffic'
   },
   {
     'image': 'images/Cyprus_road_sign_one_way_lateral_road.svg',
-    'name': 'One-way lateral road'
+    'name': 'One-way road (lateral)'
   },
   {'image': 'images/UK_traffic_sign_672.svg', 'name': 'Minimum speed limit'},
   {
@@ -356,7 +359,7 @@ let signs = [
   },
   {
     'image': 'images/Cyprus_road_sign_humped_pellcan_crossing.svg',
-    'name': 'Humped pellcan crossing'
+    'name': 'Humped «pelican» crossing'
   },
   {'image': 'images/Cyprus_road_sign_school.svg', 'name': 'School'},
   {

@@ -2,6 +2,7 @@ let currentQuestion = 0;
 let correctCount = 0;
 let incorrectCount = 0;
 const buttonsCount = 4;
+const scoreDisplay = getElementDisplay('score');
 const answersDisplay = getElementDisplay('answers');
 const answerTextDisplay = getElementDisplay('answerText');
 const showAnswerButtonDisplay = getElementDisplay('showAnswerButton');
@@ -79,6 +80,7 @@ function showQuestion() {
 
   const mode = document.getElementById('mode').checked ? Mode.TEST : Mode.LEARN;
   if (mode === Mode.TEST) {
+    setElementDisplay('score', 'none');
     setElementDisplay('answers', 'none');
     setElementDisplay('answerText', answerTextDisplay);
     setElementDisplay('showAnswerButton', showAnswerButtonDisplay);
@@ -97,6 +99,7 @@ function showQuestion() {
     setElementDisplay('answerText', 'none');
     setElementDisplay('showAnswerButton', 'none');
     setElementDisplay('answers', answersDisplay);
+    setElementDisplay('score', scoreDisplay);
 
     let answers = getRandomAnswers(buttonsCount);
     if (!answers.find(answer => answer.name === question.name)) {

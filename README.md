@@ -21,7 +21,7 @@ The test has two modes: ***Learning*** and ***Self-test***.
 
 ***Learning*** mode suggests choosing from 4 answers and counting passed and failed questions.
 
-The ***Self-test*** mode could be activated in the top right corner and allow you to check yourself to knowledge road signs.
+The ***Self-test*** mode could be activated in the bottom right corner and allow you to check yourself to knowledge road signs.
 
 Also, for my lovely wife, I created a feature to switch language on a fly between English and Russian.
 

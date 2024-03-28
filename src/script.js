@@ -84,9 +84,13 @@ function showQuestion() {
     setElementDisplay('showAnswerButton', showAnswerButtonDisplay);
     showSpacers();
     hideAnswer();
+
+    let answerText = document.getElementById('answerText');
+    answerText.name = `${question.name}`;
+    answerText.ru = `${question.ru}`;
     showAnswer = function() {
-      let answerText = document.getElementById('answerText');
       answerText.innerText = `${question.name}`;
+      updateTranslation();
     };
   } else if (mode === Mode.LEARN) {
     hideSpacers();
@@ -107,6 +111,8 @@ function showQuestion() {
       const id = 'answerButton' + (i + 1);
       let button = document.getElementById(id);
       button.innerText = answers[i].name;
+      button.name = answers[i].name;
+      button.ru = answers[i].ru;
       button.onclick = function() {
         disableAnswerButtons();
         theAnswerButton.classList.add('btn-success');
@@ -123,6 +129,7 @@ function showQuestion() {
     }
   }
 
+  updateTranslation();
   document.getElementById('nextButton').classList.remove('disabled');
 }
 
@@ -157,6 +164,18 @@ function switchMode() {
   correctCount = 0;
   incorrectCount = 0;
   showQuestion();
+}
+
+function updateTranslation() {
+  let ru = document.getElementById('lang').checked;
+  for (let i = 0; i < buttonsCount; i++) {
+    const id = 'answerButton' + (i + 1);
+    let button = document.getElementById(id);
+    button.innerText = ru ? button.ru : button.name;
+  }
+  if (answerText.innerText !== '') {
+    answerText.innerText = ru ? answerText.ru : answerText.name;
+  }
 }
 
 function preloadImages() {

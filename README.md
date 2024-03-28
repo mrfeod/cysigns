@@ -1,6 +1,11 @@
-<p align="center">
-  <img src="https://github.com/mrfeod/cysigns/blob/master/icon/android-chrome-192x192.png?raw=true" alt="Cyprus Road Signs Logo"/>
-</p>
+<div class="image-container" style="position: relative; display: flex; justify-content: center;">
+  <a href="https://mrfeod.github.io/cysigns/">
+    <svg width="100%" height="100%" viewBox="0 0 100 100" style="position: absolute; top: 0; left: 0;">
+      <circle cx="50" cy="50" r="48" stroke="#262626" stroke-width="2" fill="#0000" />
+    </svg>
+    <img src="https://github.com/mrfeod/cysigns/blob/master/icon/android-chrome-192x192.png?raw=true" alt="Cyprus Road Signs Logo" />
+  </a>
+</div>
 
 This repo contains a road signs test based on [«Road signs in Cyprus» Wikipedia article](https://en.wikipedia.org/wiki/Road_signs_in_Cyprus).
 
@@ -16,7 +21,8 @@ The test has two modes: ***Learning*** and ***Self-test***.
 
 ***Learning*** mode suggests choosing from 4 answers and counting passed and failed questions.
 
-The ***Self-test*** mode could be activated in the bottom right corner and allow you to check yourself to knowledge road signs.
+
+Also, for my lovely wife, I created a feature to switch language on a fly between English and Russian.
 
 **[Try the test here. Good luck!](https://mrfeod.github.io/cysigns/)**
 

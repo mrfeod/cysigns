@@ -1,11 +1,8 @@
-<div class="image-container" style="position: relative; display: flex; justify-content: center;">
+<p align="center">
   <a href="https://mrfeod.github.io/cysigns/">
-    <svg width="100%" height="100%" viewBox="0 0 100 100" style="position: absolute; top: 0; left: 0;">
-      <circle cx="50" cy="50" r="48" stroke="#262626" stroke-width="2" fill="#0000" />
-    </svg>
     <img src="https://github.com/mrfeod/cysigns/blob/master/icon/android-chrome-192x192.png?raw=true" alt="Cyprus Road Signs Logo" />
   </a>
-</div>
+</p>
 
 This repo contains a road signs test based on [«Road signs in Cyprus» Wikipedia article](https://en.wikipedia.org/wiki/Road_signs_in_Cyprus).
 

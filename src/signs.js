@@ -2,7 +2,7 @@ const signs = [
   {
     'image': 'images/UK_traffic_sign_543.svg',
     'name': 'Traffic signals ahead',
-    'ru': 'Сигналы светофора впереди'
+    'ru': 'Светофор впереди'
   },
   {
     'image': 'images/Cyprus_warning_road_sign_crossroads.svg',
@@ -169,12 +169,12 @@ const signs = [
     'name':
         'Slow-moving military vehicles likely to be in or crossing the road',
     'ru':
-        'Медленно движущиеся военные транспортные средства, вероятно, на дороге или пересекают ее'
+        'Медленно движущиеся военные ТС, вероятно, на дороге или пересекают ее'
   },
   {
     'image': 'images/UK_traffic_sign_583.svg',
     'name': 'Slow-moving vehicles',
-    'ru': 'Медленно движущиеся транспортные средства'
+    'ru': 'Медленно движущиеся ТС'
   },
   {
     'image': 'images/UK_traffic_sign_554.2.svg',
@@ -209,13 +209,13 @@ const signs = [
   {
     'image': 'images/UK_traffic_sign_550.2.svg',
     'name': 'Horse-drawn vehicles likely to be in the road',
-    'ru': 'Транспортные средства, запряженные лошадьми, вероятно, на дороге'
+    'ru': 'ТС, запряженные лошадьми, вероятно, на дороге'
   },
   {
     'image': 'images/UK_traffic_sign_550.1.svg',
     'name': 'Accompanied horses or ponies likely to be in or crossing the road',
     'ru':
-        'Сопровождаемые лошади или пони, вероятно, на дороге или пересекают ее'
+        'Лошади или пони с сопровождением, вероятно, на дороге или пересекают ее'
   },
   {
     'image': 'images/UK_traffic_sign_550.svg',
@@ -230,7 +230,7 @@ const signs = [
   {
     'image': 'images/UK_traffic_sign_553.1.svg',
     'name': 'Agricultural vehicles',
-    'ru': 'Сельскохозяйственные транспортные средства'
+    'ru': 'Сельскохозяйственные ТС'
   },
   {'image': 'images/UK_traffic_sign_548.svg', 'name': 'Cattle', 'ru': 'Скот'},
   {
@@ -251,7 +251,7 @@ const signs = [
   {
     'image': 'images/Cyprus_warning_road_sign_distance_to_level_crossing.svg',
     'name': 'Distance to level crossing',
-    'ru': 'Расстояние до железнодорожного переезда'
+    'ru': 'Расстояние до ЖД переезда'
   },
   {
     'image': 'images/Cyprus_road_sign_obstacle.svg',
@@ -271,7 +271,7 @@ const signs = [
   {
     'image': 'images/Cyprus_road_sign_no_hand_vehicles.svg',
     'name': 'No hand vehicles',
-    'ru': 'Запрещено движение ручных транспортных средств'
+    'ru': 'Запрещено движение ручных ТС'
   },
   {
     'image': 'images/Cyprus_road_sign_no_motorcycles.svg',
@@ -286,17 +286,17 @@ const signs = [
   {
     'image': 'images/Cyprus_road_sign_no_motor_vehicles.svg',
     'name': 'No motor vehicles',
-    'ru': 'Запрещено движение моторных транспортных средств'
+    'ru': 'Запрещено движение моторных ТС'
   },
   {
     'image': 'images/Cyprus_road_sign_no_agricle_vehicles.svg',
     'name': 'No agricle vehicles',
-    'ru': 'Запрещено движение сельскохозяйственных транспортных средств'
+    'ru': 'Запрещено движение сельскохозяйственных ТС'
   },
   {
     'image': 'images/Cyprus_road_sign_no_animal_vehicles.svg',
     'name': 'No animal-drawn vehicles',
-    'ru': 'Запрещено движение транспортных средств, запряженных животными'
+    'ru': 'Запрещено движение ТС, запряженных животными'
   },
   {
     'image': 'images/Cyprus_road_sign_toll_post.svg',
@@ -321,37 +321,37 @@ const signs = [
   {
     'image': 'images/UK_traffic_sign_619.svg',
     'name': 'No motor vehicles (both car and motorcycle)',
-    'ru': 'Запрещено движение моторных транспортных средств (авто и мото)'
+    'ru': 'Запрещено движение моторных ТС (авто и мото)'
   },
   {
     'image': 'images/UK_traffic_sign_811.svg',
-    'name': 'Traffic has priority over vehicles from the opposite direction',
+    'name': 'Priority over vehicles from the opposite direction',
     'ru': 'Приоритет перед встречными транспортными средствами'
   },
   {
     'image': 'images/UK_traffic_sign_617.svg',
     'name': 'No vehicles',
-    'ru': 'Запрещено движение транспортных средств'
+    'ru': 'Запрещено движение ТС'
   },
   {
     'image': 'images/Cyprus_road_sign_maximum_large.svg',
     'name': 'No vehicles exceeding width on the sign',
-    'ru': 'Запрещено движение транспортных средств, превышающих ширину'
+    'ru': 'Запрещено движение ТС, превышающих ширину'
   },
   {
     'image': 'images/Cyprus_road_sign_maximum_height.svg',
     'name': 'No vehicles exceeding height on the sign',
-    'ru': 'Запрещено движение транспортных средств, превышающих высоту'
+    'ru': 'Запрещено движение ТС, превышающих высоту'
   },
   {
     'image': 'images/UK_traffic_sign_622.1A.svg',
     'name': 'No heavy vehicles exceeding weight on the sign',
-    'ru': 'Запрещено движение тяжелых транспортных средств, превышающих вес'
+    'ru': 'Запрещено движение тяжелых ТС, превышающих вес'
   },
   {
     'image': 'images/Cyprus_road_sign_no_heavy_vehicles.svg',
     'name': 'No heavy vehicles',
-    'ru': 'Запрещено движение тяжелых транспортных средств'
+    'ru': 'Запрещено движение тяжелых ТС'
   },
   {
     'image': 'images/UK_traffic_sign_622.7.svg',
@@ -385,7 +385,7 @@ const signs = [
   },
   {
     'image': 'images/UK_traffic_sign_615.svg',
-    'name': 'Priority must be given to vehicles from the opposite direction',
+    'name': 'Priority of vehicles from the opposite direction',
     'ru': 'Преимущество встречных транспортнх средств'
   },
   {
@@ -401,7 +401,7 @@ const signs = [
   {
     'image': 'images/Cyprus_road_sign_no_overpass_heavy_vehicles.svg',
     'name': 'No overtaking by heavy vehicles',
-    'ru': 'Запрещен обгон для грузовых транспортных средств'
+    'ru': 'Запрещен обгон для грузовых ТС'
   },
   {
     'image': 'images/Cyprus_road_sign_maximum_single_weight.svg',
@@ -421,7 +421,7 @@ const signs = [
   {
     'image': 'images/Cyprus_road_sign_no_water_heavy_vehicles.svg',
     'name': 'No water heavy vehicles',
-    'ru': 'Запрещено движение тяжелых транспортных средств по воде'
+    'ru': 'Запрещено движение тяжелых ТС по воде'
   },
   {
     'image': 'images/Cyprus_road_sign_maximum_heavy.svg',
@@ -430,7 +430,7 @@ const signs = [
   },
   {
     'image': 'images/UK_traffic_sign_622.8.svg',
-    'name': 'Vehicles carrying explosives (such as fireworks) prohibited.',
+    'name': 'Carrying explosives prohibited (such as fireworks)',
     'ru': 'Запрещена перевозка взрывчатых веществ'
   },
   {
@@ -475,10 +475,8 @@ const signs = [
   },
   {
     'image': 'images/Cyprus_road_sign_cross_guided.svg',
-    'name':
-        'Controlled block, stopping is prohibited except when waiting for a right turn',
-    'ru':
-        'Контролируемый блок, остановка запрещена, кроме случаев ожидания правого поворота'
+    'name': 'Guided crossroad, do not stop except waiting for a right turn',
+    'ru': 'Остановка на перекрестке запрещена, кроме ожидания правого поворота'
   },
   {
     'image': 'images/UK_traffic_sign_636.svg',
@@ -708,7 +706,7 @@ const signs = [
   {
     'image': 'images/Cyprus_road_sign_transitability.svg',
     'name': 'Open road (Only for vehicles with snow chains)',
-    'ru': 'Проезд (только для транспортных средств с цепями противоскольжения)'
+    'ru': 'Проезд (только для ТС с цепями противоскольжения)'
   },
   {
     'image': 'images/Cyprus_road_sign_drive_on_the_left.svg',
@@ -718,7 +716,7 @@ const signs = [
   {
     'image': 'images/Cyprus_road_sign_vehicles_exit.svg',
     'name': 'Vehicle exit',
-    'ru': 'Выезд для транспортных средств'
+    'ru': 'Выезд для ТС'
   },
   {
     'image': 'images/Cyprus_road_sign_general_limits.svg',
@@ -738,26 +736,24 @@ const signs = [
   {
     'image': 'images/Vienna_Convention_road_sign_H7-V1-1.svg',
     'name': 'Allowed only for disabled vehicles',
-    'ru': 'Разрешено только для инвалидных транспортных средств'
+    'ru': 'Только для инвалидов'
   },
   {
     'image': 'images/Vienna_Convention_road_sign_H4a-V1-1.svg',
     'name': 'A no stop and parking sign placed perpendicular to the street',
-    'ru': 'Остановка запрещена, установленный перпендикулярно улице'
+    'ru': 'Остановка запрещена, перпендикулярный улице'
   },
   {
     'image': 'images/Vienna_Convention_road_sign_H4b-V1-1.svg',
     'name':
         'Repetition of a no stop and parking sign placed perpendicular to the street',
-    'ru':
-        'Повторение знака Остановка запрещена, установленного перпендикулярно улице'
+    'ru': 'Повторение знака Остановка запрещена, перпендикулярного улице'
   },
   {
     'image': 'images/Vienna_Convention_road_sign_H4c-V1-1.svg',
     'name':
         'End of a no stop and parking sign placed perpendicular to the street',
-    'ru':
-        'Конец знака Остановка запрещена, установленного перпендикулярно улице'
+    'ru': 'Конец знака Остановка запрещена, перпендикулярного улице'
   },
   {
     'image': 'images/Vienna_Convention_road_sign_H1-V1-1.svg',
@@ -774,14 +770,13 @@ const signs = [
     'image': 'images/Vienna_Convention_road_sign_H3a-V1-1.svg',
     'name':
         'A no stop and parking sign from the position of the sign placed parallel to the street',
-    'ru': 'Остановка запрещена от знака, установленного параллельно улице'
+    'ru': 'Остановка запрещена от знака, параллельного улице'
   },
   {
     'image': 'images/Vienna_Convention_road_sign_H3b-V1-1.svg',
     'name':
         'Reminder of a no stop and parking sign placed parallel to the street',
-    'ru':
-        'Напоминание о знаке Остановка запрещена, установленном параллельно улице'
+    'ru': 'Напоминание о знаке Остановка запрещена, параллельного улице'
   },
   {
     'image': 'images/Vienna_Convention_road_sign_H9-V1-1.svg',
@@ -821,12 +816,12 @@ const signs = [
   {
     'image': 'images/UK_traffic_sign_957.svg',
     'name': 'Cycle path separated from pedestrian path',
-    'ru': 'Велосипедная дорожка отделена от пешеходной дорожки'
+    'ru': 'Велосипедная дорожка отделена от пешеходной'
   },
   {
     'image': 'images/UK_traffic_sign_957R.svg',
     'name': 'Cycle path separated from pedestrian path (alternative)',
-    'ru': 'Велосипедная дорожка отделена от пешеходной дорожки (вариант 2)'
+    'ru': 'Велосипедная дорожка отделена от пешеходной (вариант 2)'
   },
   {
     'image': 'images/UK_traffic_sign_956.svg',
@@ -857,8 +852,7 @@ const signs = [
     'image': 'images/Roundabout_road_sign_in_Cyprus1.svg',
     'name':
         'Roundabout sign leading to population centres and the Turkish-occupied areas',
-    'ru':
-        'Знак кольцевого движения, ведущий к населенным пунктам и оккупированным территориям'
+    'ru': 'Кольцо, ведущее к населенным пунктам и оккупированным территориям'
   },
   {
     'image': 'images/Warning_sign_in_Cyprus.png',

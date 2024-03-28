@@ -1,5 +1,5 @@
 body {
-    background-color: #eee;
+    background-color: #fafafa;
     overflow-x: hidden;
 }
 
@@ -8,7 +8,6 @@ body {
     flex-direction: column;
     align-items: center;
     height: 100dvh;
-    padding: 8px;
 }
 
 #signContainer {
@@ -71,9 +70,14 @@ body {
 
 #selfTest {
     position: fixed;
-    top: 25px;
+    margin: 0 0 0 0;
+    bottom: 16px;
     right: 0px;
-    opacity: 0.5;
+    opacity: 0.7;
+}
+
+.form-switch {
+    margin: 0 0 0 0;
 }
 
 @media only screen and (max-width: 600px) {

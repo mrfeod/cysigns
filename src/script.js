@@ -33,8 +33,7 @@ function getRandomAnswers(count) {
 let showAnswer = function() {}
 
 function hideAnswer() {
-  let answerText = document.getElementById('answerText');
-  answerText.innerText = '';
+  setElementText('answerText', '');
 }
 
 function setSpacersDisplay(display) {
@@ -54,14 +53,14 @@ function showSpacers() {
 
 function disableAnswerButtons() {
   for (let i = 0; i < buttonsCount; i++) {
-    const id = 'answerButton' + (i + 1);
+    const id = 'answerButton' + i;
     document.getElementById(id).classList.add('disabled');
   }
 }
 
 function enableAnswerButtons() {
   for (let i = 0; i < buttonsCount; i++) {
-    let answer = document.getElementById('answerButton' + (i + 1));
+    let answer = document.getElementById('answerButton' + i);
     answer.classList.remove('btn-success');
     answer.classList.remove('btn-error');
     answer.classList.remove('disabled');
@@ -69,10 +68,6 @@ function enableAnswerButtons() {
 }
 
 function showQuestion() {
-  setElementText('question', currentQuestion + 1);
-  setElementText('total', signs.length);
-  enableAnswerButtons();
-
   const question = getRandomQuestion();
   let image = document.getElementById('signImage');
   image.src = question.image;
@@ -91,7 +86,7 @@ function showQuestion() {
     answerText.name = `${question.name}`;
     answerText.ru = `${question.ru}`;
     showAnswer = function() {
-      answerText.innerText = `${question.name}`;
+      setElementText('answerText', `${question.name}`);
       updateTranslation();
     };
   } else if (mode === Mode.LEARN) {
@@ -107,11 +102,11 @@ function showQuestion() {
       answers.sort(() => Math.random() - 0.5);
     }
 
-    let answerIndex = answers.findIndex(a => a.name === question.name) + 1;
+    let answerIndex = answers.findIndex(a => a.name === question.name);
     let theAnswerButton = document.getElementById('answerButton' + answerIndex);
 
     for (let i = 0; i < buttonsCount; i++) {
-      const id = 'answerButton' + (i + 1);
+      const id = 'answerButton' + i;
       let button = document.getElementById(id);
       button.innerText = answers[i].name;
       button.name = answers[i].name;
@@ -121,19 +116,27 @@ function showQuestion() {
         theAnswerButton.classList.add('btn-success');
         if (button === theAnswerButton) {
           correctCount++;
-          setTimeout(nextQuestion, 150);
+          if (currentQuestion < signs.length) {
+            setTimeout(nextQuestion, 150);
+          }
         } else {
           incorrectCount++;
           button.classList.add('btn-error');
         }
+
         setElementText('correct', correctCount);
         setElementText('incorrect', incorrectCount);
+        if (currentQuestion === signs.length) {
+          nextQuestion();
+        }
       };
     }
   }
 
+  setElementText('correct', correctCount);
+  setElementText('incorrect', incorrectCount);
   updateTranslation();
-  document.getElementById('nextButton').classList.remove('disabled');
+  enableAnswerButtons();
 }
 
 function getRandomQuestion() {
@@ -150,32 +153,42 @@ function getRandomQuestion() {
 }
 
 function nextQuestion() {
-  document.getElementById('nextButton').classList.add('disabled');
-  currentQuestion++;
   if (currentQuestion < signs.length) {
+    currentQuestion++;
+    setElementText('question', currentQuestion);
+    setElementText('nextButton', 'Next');
     showQuestion();
   } else {
-    disableAnswerButtons();
     let answerText = document.getElementById('answerText');
     answerText.style.display = answerTextDisplay;
     answerText.innerText = 'Test finished!';
+    disableAnswerButtons();
+    setElementText('nextButton', 'Restart');
+    resetState();
   }
 }
 
-function switchMode() {
+function resetState() {
   currentQuestion = 0;
   correctCount = 0;
   incorrectCount = 0;
-  showQuestion();
+  // Reset the used flag for all questions due to reset the state
+  signs.forEach(question => question.used = false);
+}
+
+function switchMode() {
+  resetState();
+  nextQuestion();
 }
 
 function updateTranslation() {
   let ru = document.getElementById('lang').checked;
   for (let i = 0; i < buttonsCount; i++) {
-    const id = 'answerButton' + (i + 1);
+    const id = 'answerButton' + i;
     let button = document.getElementById(id);
     button.innerText = ru ? button.ru : button.name;
   }
+  let answerText = document.getElementById('answerText');
   if (answerText.innerText !== '') {
     answerText.innerText = ru ? answerText.ru : answerText.name;
   }
@@ -189,9 +202,9 @@ function preloadImages() {
 }
 
 function start() {
-  document.getElementById('nextButton').classList.add('disabled');
+  setElementText('total', signs.length);
   preloadImages();
-  showQuestion();
+  nextQuestion();
 };
 
 start();

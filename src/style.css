@@ -12,14 +12,16 @@ body {
 
 #signContainer {
     display: flex;
+    flex-direction: row;
     align-items: center;
     height: 40vh;
     min-height: 40vh;
     max-height: 40vh;
-    width: auto;
+    width: 100%;
 }
 
 .sign-image {
+    width: auto;
     height: 40vmin;
     min-height: 40vmin;
     max-height: 40vh;
@@ -63,9 +65,19 @@ body {
     height: 100%;
 }
 
+.spacerW {
+    width: 100%;
+}
+
 #answerText, #finishText {
     min-height: 6vh;
     font-size: 1.2rem;
+}
+
+#finishText {
+    position: absolute;
+    width: 100%;
+    background-color: #fafafaef;
 }
 
 #selfTest {

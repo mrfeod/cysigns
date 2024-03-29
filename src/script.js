@@ -164,11 +164,13 @@ function updateTranslation() {
 
 function preloadImages() {
   toggleModifier('signContainer', 'loading', true);
+  window.onload = function() {
+    toggleModifier('signContainer', 'loading', false);
+  };
   for (let i = 0; i < signs.length; i++) {
     let image = new Image();
     image.src = signs[i].image;
   }
-  toggleModifier('signContainer', 'loading', false);
 }
 
 setElementText('total', signs.length);

@@ -2,26 +2,65 @@ let currentQuestion = 0;
 let correctCount = 0;
 let incorrectCount = 0;
 const buttonsCount = 4;
-const scoreDisplay = getElementDisplay('score');
-const answersDisplay = getElementDisplay('answers');
-const answerTextDisplay = getElementDisplay('answerText');
-const showAnswerButtonDisplay = getElementDisplay('showAnswerButton');
 
 const Mode = {
-  LEARN: 'LEARN',
-  TEST: 'TEST',
+  Learn: 'Learn',
+  Test: 'Test',
 };
-
-function getElementDisplay(elementId) {
-  return document.getElementById(elementId).style.display;
-}
-
-function setElementDisplay(elementId, display) {
-  return document.getElementById(elementId).style.display = display;
-}
 
 function setElementText(elementId, text) {
   return document.getElementById(elementId).innerText = text;
+}
+
+function toggleModifier(elementId, modifier, force) {
+  document.getElementById(elementId).classList.toggle(modifier, force);
+}
+
+function hideSpacers(hide) {
+  var elements = document.getElementsByClassName('spacer');
+  for (var i = 0; i < elements.length; i++) {
+    elements[i].classList.toggle('d-hide', hide);
+  }
+}
+
+function disableAnswerButtons() {
+  for (let i = 0; i < buttonsCount; i++) {
+    toggleModifier('answerButton' + i, 'disabled', true);
+  }
+}
+
+function enableAnswerButtons() {
+  for (let i = 0; i < buttonsCount; i++) {
+    toggleModifier('answerButton' + i, 'btn-success', false);
+    toggleModifier('answerButton' + i, 'btn-error', false);
+    toggleModifier('answerButton' + i, 'disabled', false);
+  }
+}
+
+function showAnswer() {
+  toggleModifier('answerText', 'd-invisible', false);
+}
+
+function updateScore() {
+  setElementText('question', currentQuestion);
+  setElementText('correct', correctCount);
+  setElementText('incorrect', incorrectCount);
+}
+
+function proceed() {
+  return currentQuestion < signs.length;
+}
+
+function getRandomQuestion() {
+  let availableQuestions = signs.filter(question => !question.used);
+  if (availableQuestions.length === 0) {
+    signs.forEach(question => question.used = false);
+    availableQuestions = signs;
+  }
+  let randomIndex = Math.floor(Math.random() * availableQuestions.length);
+  let question = availableQuestions[randomIndex];
+  question.used = true;
+  return question;
 }
 
 function getRandomAnswers(count) {
@@ -30,72 +69,28 @@ function getRandomAnswers(count) {
   return answers.slice(0, count);
 }
 
-let showAnswer = function() {}
-
-function hideAnswer() {
-  setElementText('answerText', '');
-}
-
-function setSpacersDisplay(display) {
-  var elements = document.getElementsByClassName('spacer');
-  for (var i = 0; i < elements.length; i++) {
-    elements[i].style.display = display;
-  }
-}
-
-function hideSpacers() {
-  setSpacersDisplay('none');
-}
-
-function showSpacers() {
-  setSpacersDisplay('block');
-}
-
-function disableAnswerButtons() {
-  for (let i = 0; i < buttonsCount; i++) {
-    const id = 'answerButton' + i;
-    document.getElementById(id).classList.add('disabled');
-  }
-}
-
-function enableAnswerButtons() {
-  for (let i = 0; i < buttonsCount; i++) {
-    let answer = document.getElementById('answerButton' + i);
-    answer.classList.remove('btn-success');
-    answer.classList.remove('btn-error');
-    answer.classList.remove('disabled');
-  }
+function assignAnswer(element, answer) {
+  element.innerText = answer.name;
+  element.name = answer.name;
+  element.ru = answer.ru;
 }
 
 function showQuestion() {
   const question = getRandomQuestion();
   let image = document.getElementById('signImage');
   image.src = question.image;
-  image.alt = question.name;
 
-  const mode = document.getElementById('mode').checked ? Mode.TEST : Mode.LEARN;
-  if (mode === Mode.TEST) {
-    setElementDisplay('score', 'none');
-    setElementDisplay('answers', 'none');
-    setElementDisplay('answerText', answerTextDisplay);
-    setElementDisplay('showAnswerButton', showAnswerButtonDisplay);
-    showSpacers();
-    hideAnswer();
+  const mode = document.getElementById('mode').checked ? Mode.Test : Mode.Learn;
+  toggleModifier('score', 'd-hide', mode === Mode.Test);
+  toggleModifier('answers', 'd-hide', mode === Mode.Test);
+  toggleModifier('answerText', 'd-hide', mode === Mode.Learn);
+  toggleModifier('showAnswerButton', 'd-hide', mode === Mode.Learn);
+  hideSpacers(mode === Mode.Learn);
 
-    let answerText = document.getElementById('answerText');
-    answerText.name = `${question.name}`;
-    answerText.ru = `${question.ru}`;
-    showAnswer = function() {
-      setElementText('answerText', `${question.name}`);
-      updateTranslation();
-    };
-  } else if (mode === Mode.LEARN) {
-    hideSpacers();
-    setElementDisplay('answerText', 'none');
-    setElementDisplay('showAnswerButton', 'none');
-    setElementDisplay('answers', answersDisplay);
-    setElementDisplay('score', scoreDisplay);
-
+  if (mode === Mode.Test) {
+    toggleModifier('answerText', 'd-invisible', true);
+    assignAnswer(document.getElementById('answerText'), question);
+  } else if (mode === Mode.Learn) {
     let answers = getRandomAnswers(buttonsCount);
     if (!answers.find(answer => answer.name === question.name)) {
       answers[0] = question;
@@ -106,64 +101,41 @@ function showQuestion() {
     let theAnswerButton = document.getElementById('answerButton' + answerIndex);
 
     for (let i = 0; i < buttonsCount; i++) {
-      const id = 'answerButton' + i;
-      let button = document.getElementById(id);
-      button.innerText = answers[i].name;
-      button.name = answers[i].name;
-      button.ru = answers[i].ru;
+      let button = document.getElementById('answerButton' + i);
+      assignAnswer(button, answers[i]);
       button.onclick = function() {
         disableAnswerButtons();
         theAnswerButton.classList.add('btn-success');
         if (button === theAnswerButton) {
           correctCount++;
-          if (currentQuestion < signs.length) {
+          if (proceed()) {
             setTimeout(nextQuestion, 150);
           }
         } else {
           incorrectCount++;
           button.classList.add('btn-error');
         }
+        updateScore();
 
-        setElementText('correct', correctCount);
-        setElementText('incorrect', incorrectCount);
-        if (currentQuestion === signs.length) {
+        if (!proceed()) {
           nextQuestion();
         }
       };
     }
   }
-
-  setElementText('correct', correctCount);
-  setElementText('incorrect', incorrectCount);
   updateTranslation();
-  enableAnswerButtons();
-}
-
-function getRandomQuestion() {
-  let availableQuestions = signs.filter(question => !question.used);
-  if (availableQuestions.length === 0) {
-    // All questions have been used, reset the used flag for all questions
-    signs.forEach(question => question.used = false);
-    availableQuestions = signs;
-  }
-  let randomIndex = Math.floor(Math.random() * availableQuestions.length);
-  let question = availableQuestions[randomIndex];
-  question.used = true;
-  return question;
 }
 
 function nextQuestion() {
-  if (currentQuestion < signs.length) {
+  setElementText('nextButton', proceed() ? 'Next' : 'Restart');
+  toggleModifier('finishText', 'd-hide', proceed());
+  if (proceed()) {
     currentQuestion++;
-    setElementText('question', currentQuestion);
-    setElementText('nextButton', 'Next');
+    updateScore();
     showQuestion();
+    enableAnswerButtons();
   } else {
-    let answerText = document.getElementById('answerText');
-    answerText.style.display = answerTextDisplay;
-    answerText.innerText = 'Test finished!';
     disableAnswerButtons();
-    setElementText('nextButton', 'Restart');
     resetState();
   }
 }
@@ -172,7 +144,6 @@ function resetState() {
   currentQuestion = 0;
   correctCount = 0;
   incorrectCount = 0;
-  // Reset the used flag for all questions due to reset the state
   signs.forEach(question => question.used = false);
 }
 
@@ -184,27 +155,22 @@ function switchMode() {
 function updateTranslation() {
   let ru = document.getElementById('lang').checked;
   for (let i = 0; i < buttonsCount; i++) {
-    const id = 'answerButton' + i;
-    let button = document.getElementById(id);
+    let button = document.getElementById('answerButton' + i);
     button.innerText = ru ? button.ru : button.name;
   }
   let answerText = document.getElementById('answerText');
-  if (answerText.innerText !== '') {
-    answerText.innerText = ru ? answerText.ru : answerText.name;
-  }
+  answerText.innerText = ru ? answerText.ru : answerText.name;
 }
 
 function preloadImages() {
+  toggleModifier('signContainer', 'loading', true);
   for (let i = 0; i < signs.length; i++) {
     let image = new Image();
     image.src = signs[i].image;
   }
+  toggleModifier('signContainer', 'loading', false);
 }
 
-function start() {
-  setElementText('total', signs.length);
-  preloadImages();
-  nextQuestion();
-};
-
-start();
+setElementText('total', signs.length);
+preloadImages();
+nextQuestion();

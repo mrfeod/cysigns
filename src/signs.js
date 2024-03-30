@@ -146,13 +146,13 @@ const signs = [
   },
   {
     'image': 'images/UK_traffic_sign_558.svg',
-    'name': 'Low-flying aircraft or sudden aircraft noise',
-    'ru': 'Низколетящий самолет или внезапный шум самолета'
+    'name': 'Low-flying aircraft or sudden noise',
+    'ru': 'Низколетящий самолет или внезапный шум'
   },
   {
     'image': 'images/UK_traffic_sign_558.1.svg',
-    'name': 'Low-flying helicopters or sudden helicopter noise',
-    'ru': 'Низколетящие вертолеты или внезапный шум вертолета'
+    'name': 'Low-flying helicopters or sudden noise',
+    'ru': 'Низколетящие вертолеты или внезапный шум'
   },
   {
     'image': 'images/UK_traffic_sign_559_(left).svg',
@@ -162,14 +162,12 @@ const signs = [
   {
     'image': 'images/UK_traffic_sign_584.svg',
     'name': 'Traffic queues likely ahead',
-    'ru': 'Вероятные пробки впереди'
+    'ru': 'Возможна пробка впереди'
   },
   {
     'image': 'images/UK_traffic_sign_582.svg',
-    'name':
-        'Slow-moving military vehicles likely to be in or crossing the road',
-    'ru':
-        'Медленно движущиеся военные ТС, вероятно, на дороге или пересекают ее'
+    'name': 'Slow-moving military vehicles likely ahead',
+    'ru': 'Медленные военные ТС на дороге или пересекают ее'
   },
   {
     'image': 'images/UK_traffic_sign_583.svg',
@@ -198,7 +196,7 @@ const signs = [
   },
   {
     'image': 'images/UK_traffic_sign_544.2.svg',
-    'name': 'Slow/frail/blind/disabled pedestrians likely to cross',
+    'name': 'Frail / blind / disabled pedestrians likely crossing',
     'ru': 'Медленно передвигающиеся пешеходы'
   },
   {
@@ -208,14 +206,13 @@ const signs = [
   },
   {
     'image': 'images/UK_traffic_sign_550.2.svg',
-    'name': 'Horse-drawn vehicles likely to be in the road',
-    'ru': 'ТС, запряженные лошадьми, вероятно, на дороге'
+    'name': 'Horse-drawn vehicles likely ahead',
+    'ru': 'ТС, запряженные лошадьми'
   },
   {
     'image': 'images/UK_traffic_sign_550.1.svg',
-    'name': 'Accompanied horses or ponies likely to be in or crossing the road',
-    'ru':
-        'Лошади или пони с сопровождением, вероятно, на дороге или пересекают ее'
+    'name': 'Accompanied horses or ponies likely ahead or crossing',
+    'ru': 'Лошади или пони с сопровождением на дороге или пересекают ее'
   },
   {
     'image': 'images/UK_traffic_sign_550.svg',
@@ -740,20 +737,18 @@ const signs = [
   },
   {
     'image': 'images/Vienna_Convention_road_sign_H4a-V1-1.svg',
-    'name': 'A no stop and parking sign placed perpendicular to the street',
-    'ru': 'Остановка запрещена, перпендикулярный улице'
+    'name': '«No stop and parking», perpendicular to the street',
+    'ru': '«Остановка запрещена», перпендикулярный улице'
   },
   {
     'image': 'images/Vienna_Convention_road_sign_H4b-V1-1.svg',
-    'name':
-        'Repetition of a no stop and parking sign placed perpendicular to the street',
-    'ru': 'Повторение знака Остановка запрещена, перпендикулярного улице'
+    'name': 'Repetition of «No stop and parking», perpendicular to the street',
+    'ru': 'Повторение знака «Остановка запрещена», перпендикулярного улице'
   },
   {
     'image': 'images/Vienna_Convention_road_sign_H4c-V1-1.svg',
-    'name':
-        'End of a no stop and parking sign placed perpendicular to the street',
-    'ru': 'Конец знака Остановка запрещена, перпендикулярного улице'
+    'name': 'End of «No stop and parking» placed perpendicular to the street',
+    'ru': 'Конец знака «Остановка запрещена», перпендикулярного улице'
   },
   {
     'image': 'images/Vienna_Convention_road_sign_H1-V1-1.svg',
@@ -850,8 +845,7 @@ const signs = [
   },
   {
     'image': 'images/Roundabout_road_sign_in_Cyprus1.svg',
-    'name':
-        'Roundabout sign leading to population centres and the Turkish-occupied areas',
+    'name': 'Roundabout to population centres and Turkish-occupied areas',
     'ru': 'Кольцо, ведущее к населенным пунктам и оккупированным территориям'
   },
   {

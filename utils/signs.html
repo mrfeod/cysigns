@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Road Signs</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th,
+        td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+    </style>
+    <link rel="stylesheet" href="../src/spectre.min.css">
+    <link rel="stylesheet" href="../src/style.css">
+</head>
+
+<body>
+    <h1>Road Signs</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Sign Name</th>
+                <th>Sign Image</th>
+            </tr>
+        </thead>
+        <tbody>
+            <script src="../src/signs.js"></script>
+            <script>
+                for (var i = 0; i < signs.length; i++) {
+                    var sign = signs[i];
+                    document.write('<tr>');
+                    document.write('<td>' + sign.name + '</td>');
+                    document.write('<td><figure id="signContainer" class="figure">');
+                    document.write('<img src="../' + sign.image + '" alt="' + sign.name + '" class="sign-image">');
+                    document.write('</figure></td>');
+                    document.write('</tr>');
+                }
+            </script>
+        </tbody>
+    </table>
+</body>
+
+</html>

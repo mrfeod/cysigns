@@ -964,11 +964,6 @@ const signs = [
     'ru': 'Туалет'
   },
   {
-    'image': 'images/Traffic_Sign_GR_-_KOK_2009_-_P-49.svg',
-    'name': 'Tunnel',
-    'ru': 'Туннель'
-  },
-  {
     'image': 'images/Traffic_Sign_GR_-_KOK_2009_-_P-50.svg',
     'name': 'Airport',
     'ru': 'Аэропорт'

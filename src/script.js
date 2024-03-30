@@ -97,16 +97,15 @@ function showQuestion() {
       answers.sort(() => Math.random() - 0.5);
     }
 
-    let answerIndex = answers.findIndex(a => a.name === question.name);
-    let theAnswerButton = document.getElementById('answerButton' + answerIndex);
-
+    const answerIndex = answers.findIndex(a => a.name === question.name);
     for (let i = 0; i < buttonsCount; i++) {
       let button = document.getElementById('answerButton' + i);
       assignAnswer(button, answers[i]);
       button.onclick = function() {
         disableAnswerButtons();
-        theAnswerButton.classList.add('btn-success');
-        if (button === theAnswerButton) {
+        let theAnswer = document.getElementById('answerButton' + answerIndex);
+        theAnswer.classList.add('btn-success');
+        if (button === theAnswer) {
           correctCount++;
           if (proceed()) {
             setTimeout(nextQuestion, 150);

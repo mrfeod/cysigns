@@ -472,7 +472,7 @@ const signs = [
   },
   {
     'image': 'images/Cyprus_road_sign_cross_guided.svg',
-    'name': 'Guided crossroad, do not stop except waiting for a right turn',
+    'name': 'Box junction, do not stop except waiting for a right turn',
     'ru': 'Остановка на перекрестке запрещена, кроме ожидания правого поворота'
   },
   {
@@ -852,5 +852,40 @@ const signs = [
     'image': 'images/Warning_sign_in_Cyprus.png',
     'name': 'Stop — Turkish occupied area',
     'ru': 'Стоп — оккупированная территория'
+  },
+  {
+    'image': 'images/UK_traffic_sign_779.svg',
+    'name': 'Electrified overhead cable ahead',
+    'ru': 'Кабели высокого напряжения впереди'
+  },
+  {
+    'image': 'images/UK_traffic_sign_7001.svg',
+    'name': 'Road works',
+    'ru': 'Дорожные работы'
+  },
+  {
+    'image': 'images/UK_traffic_sign_7009.svg',
+    'name': 'Loose chippings',
+    'ru': 'Неровный щебень'
+  },
+  {
+    'image': 'images/UK_traffic_sign_774.svg',
+    'name': 'No barrier level crossing (nearby)',
+    'ru': 'ЖД переезд без шлагбаума или ворот (рядом)'
+  },
+  {
+    'image': 'images/UK_traffic_sign_770.svg',
+    'name': 'Level crossing with barrier or gate',
+    'ru': 'ЖД переезд с шлагбаумом или воротами'
+  },
+  {
+    'image': 'images/UK_traffic_sign_771.svg',
+    'name': 'Level crossing without barrier or gate',
+    'ru': 'ЖД переезд без шлагбаума или ворот'
+  },
+  {
+    'image': 'images/UK_traffic_sign_782.svg',
+    'name': 'Risk of grounding',
+    'ru': 'Риск сесть на дно'
   }
 ];

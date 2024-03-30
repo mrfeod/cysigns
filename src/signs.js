@@ -417,8 +417,8 @@ const signs = [
   },
   {
     'image': 'images/Cyprus_road_sign_no_water_heavy_vehicles.svg',
-    'name': 'No water heavy vehicles',
-    'ru': 'Запрещено движение тяжелых ТС по воде'
+    'name': 'No carrying materials that pollute water',
+    'ru': 'Запрещена перевозка материалов, загрязняющих воду'
   },
   {
     'image': 'images/Cyprus_road_sign_maximum_heavy.svg',
@@ -887,5 +887,202 @@ const signs = [
     'image': 'images/UK_traffic_sign_782.svg',
     'name': 'Risk of grounding',
     'ru': 'Риск сесть на дно'
+  },
+  {
+    'image': 'images/Traffic_Sign_GR_-_KOK_2009_-_P-32.svg',
+    'name': 'First aid',
+    'ru': 'Первая помощь'
+  },
+  {
+    'image': 'images/Traffic_Sign_GR_-_KOK_2009_-_P-33.svg',
+    'name': 'Repairs',
+    'ru': 'Ремонт'
+  },
+  {
+    'image': 'images/Traffic_Sign_GR_-_KOK_2009_-_P-34.svg',
+    'name': 'Telephone',
+    'ru': 'Телефон'
+  },
+  {
+    'image': 'images/Traffic_Sign_GR_-_KOK_2009_-_P-35.svg',
+    'name': 'Petrol station',
+    'ru': 'Автозаправка'
+  },
+  {
+    'image': 'images/Traffic_Sign_GR_-_KOK_2009_-_P-36.svg',
+    'name': 'Hotel or motel',
+    'ru': 'Гостиница или мотель'
+  },
+  {
+    'image': 'images/Traffic_Sign_GR_-_KOK_2009_-_P-37.svg',
+    'name': 'Restaurant',
+    'ru': 'Ресторан'
+  },
+  {
+    'image': 'images/Traffic_Sign_GR_-_KOK_2009_-_P-38.svg',
+    'name': 'Refreshments',
+    'ru': 'Место для отдыха'
+  },
+  {
+    'image': 'images/Traffic_Sign_GR_-_KOK_2009_-_P-39.svg',
+    'name': 'Picnicsite',
+    'ru': 'Пикниковая зона'
+  },
+  {
+    'image': 'images/Traffic_Sign_GR_-_KOK_2009_-_P-40.svg',
+    'name': 'Hiking trail',
+    'ru': 'Туристический маршрут'
+  },
+  {
+    'image': 'images/Traffic_Sign_GR_-_KOK_2009_-_P-41.svg',
+    'name': 'Camping site',
+    'ru': 'Кемпинг'
+  },
+  {
+    'image': 'images/Traffic_Sign_GR_-_KOK_2009_-_P-42.svg',
+    'name': 'Caravan site',
+    'ru': 'Место для дома на колесах'
+  },
+  {
+    'image': 'images/Traffic_Sign_GR_-_KOK_2009_-_P-43.svg',
+    'name': 'Camping and caravan site',
+    'ru': 'Место для кемпинга и дома на колесах'
+  },
+  {
+    'image': 'images/Traffic_Sign_GR_-_KOK_2009_-_P-44.svg',
+    'name': 'Youth center',
+    'ru': 'Детский лагерь'
+  },
+  {
+    'image': 'images/Traffic_Sign_GR_-_KOK_2009_-_P-45.svg',
+    'name': 'Information',
+    'ru': 'Информация'
+  },
+  {
+    'image': 'images/Traffic_Sign_GR_-_KOK_2009_-_P-47.svg',
+    'name': 'Toilet',
+    'ru': 'Туалет'
+  },
+  {
+    'image': 'images/Traffic_Sign_GR_-_KOK_2009_-_P-49.svg',
+    'name': 'Tunnel',
+    'ru': 'Туннель'
+  },
+  {
+    'image': 'images/Traffic_Sign_GR_-_KOK_2009_-_P-50.svg',
+    'name': 'Airport',
+    'ru': 'Аэропорт'
+  },
+  {
+    'image': 'images/Traffic_Sign_GR_-_KOK_2009_-_P-51.svg',
+    'name': 'Helicopter',
+    'ru': 'Вертолет'
+  },
+  {
+    'image': 'images/Traffic_Sign_GR_-_KOK_2009_-_P-61.svg',
+    'name': 'Pedestrian overpass',
+    'ru': 'Надземный пешеходный переход'
+  },
+  {
+    'image': 'images/Traffic_Sign_GR_-_KOK_2009_-_P-62.svg',
+    'name': 'Pedestrian underpass',
+    'ru': 'Подземный пешеходный переход'
+  },
+  {
+    'image': 'images/Traffic_Sign_GR_-_KOK_2009_-_P-63.svg',
+    'name': 'Pedestrian ramp',
+    'ru': 'Пешеходная рампа'
+  },
+  {
+    'image': 'images/Default-roundabout-lane.jpg',
+    'name': 'Roundabout 2 lanes directions',
+    'ru': 'Движение на кольце с 2 полос'
+  },
+  {
+    'image': 'images/Default-roundabout-lane-1.jpg',
+    'name': 'Roundabout 3 lanes directions',
+    'ru': 'Движение на кольце с 3 полос'
+  },
+  {
+    'image': 'images/No-parking-or-overtaking.jpg',
+    'name': 'Single line - no parking or overtaking',
+    'ru': 'Одиночная сплошная - запрещено парковаться или обгонять'
+  },
+  {
+    'image': 'images/No-parking-or-overtaking-1.jpg',
+    'name': 'Double line - no parking or overtaking',
+    'ru': 'Двойная сплошная - запрещено парковаться или обгонять'
+  },
+  {
+    'image': 'images/Overtaking-allowed-from-right.jpg',
+    'name': 'Overtaking allowed from right',
+    'ru': 'Обгон разрешен справа'
+  },
+  {
+    'image': 'images/Overtaking-is-allowed.jpg',
+    'name': 'Overtaking is allowed',
+    'ru': 'Обгон разрешен'
+  },
+  {
+    'image': 'images/No-parking-or-waiting-or-overtaking.jpg',
+    'name': 'No parking or waiting or overtaking',
+    'ru': 'Парковка, остановка и обгон запрещены'
+  },
+  {
+    'image': 'images/Depicts-the-side-of-the-carriageway-–-No-parking.jpg',
+    'name': 'On carriageway side — No parking',
+    'ru': 'На обочине - парковка запрещена'
+  },
+  {
+    'image':
+        'images/Depicts-the-side-of-the-carriageway-–-No-parking-or-stopping.jpg',
+    'name': 'On carriageway side — No parking or stopping',
+    'ru': 'На обочине - парковка и остановка запрещены'
+  },
+  {
+    'image': 'images/Give-way-to-traffic-on-main-road.jpg',
+    'name': 'Give way to traffic on main road',
+    'ru': 'Уступи дорогу'
+  },
+  {
+    'image': 'images/Stop-and-give-way.jpg',
+    'name': 'Stop and give way',
+    'ru': 'Стоп и уступи дорогу'
+  },
+  {
+    'image': 'images/Directions-on-roundabout.jpg',
+    'name': 'Directions on roundabout',
+    'ru': 'Направления на кольце'
+  },
+  {
+    'image': 'images/Stop-for-traffic-approaching-from-the-front.jpg',
+    'name': 'Stop for traffic from the front',
+    'ru': 'Стоп для транспорта спереди'
+  },
+  {
+    'image':
+        'images/Stop-for-traffic-approaching-from-both-front-and-behind.jpg',
+    'name': 'Stop for traffic from both front and behind',
+    'ru': 'Стоп для транспорта спереди и сзади'
+  },
+  {
+    'image': 'images/Stop-for-traffic-approaching-from-behind.jpg',
+    'name': 'Stop for traffic from behind',
+    'ru': 'Стоп для транспорта сзади'
+  },
+  {
+    'image': 'images/Proceed-to-traffic-approaching-from-the-front.jpg',
+    'name': 'Proceed to traffic from the front',
+    'ru': 'Движение разрешено для транспорта спереди'
+  },
+  {
+    'image': 'images/Proceed-to-traffic-approaching-from-the-side.jpg',
+    'name': 'Proceed to traffic from the side',
+    'ru': 'Движеие разрешено для транспорта сбоку'
+  },
+  {
+    'image': 'images/Proceed-to-traffic-approaching-from-the-behind.jpg',
+    'name': 'Proceed to traffic from the behind',
+    'ru': 'Движение разрешено для транспорта сзади'
   }
 ];

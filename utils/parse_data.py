@@ -4,6 +4,7 @@ from bs4 import BeautifulSoup
 import json
 
 url = 'https://en.wikipedia.org/wiki/Road_signs_in_Cyprus'  # replace with your URL
+#url = 'https://en.wikipedia.org/wiki/Road_signs_in_Greece' # additional source
 headers = {'User-Agent': 'CoolBot/0.0 (https://example.org/coolbot/; coolbot@example.org)'}
 
 response = requests.get(url)

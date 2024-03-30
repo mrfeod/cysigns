@@ -116,6 +116,7 @@ function showQuestion() {
           button.classList.add('btn-error');
         }
         updateScore();
+        document.getElementById('nextButton').focus();
 
         if (!proceed()) {
           nextQuestion();

@@ -111,3 +111,9 @@ body {
         max-height: 50vh;
     }
 }
+
+@media only screen {
+    .btn:hover {
+        background: #fff;
+    }
+}

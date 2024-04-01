@@ -37,7 +37,6 @@ body {
     grid-template-rows: repeat(2, minmax(0, 1fr));
     gap: 0.5rem;
     min-height: 30vh;
-    max-height: 30vh;
     width: 100%;
 }
 
@@ -70,7 +69,7 @@ body {
 }
 
 #answerText, #finishText {
-    min-height: 6vh;
+    min-height: 6dvh;
     font-size: 1.2rem;
 }
 
@@ -78,6 +77,10 @@ body {
     position: absolute;
     width: 100%;
     background-color: #fafafaef;
+}
+
+#footerText {
+    font-size: 0.6rem;
 }
 
 #selfTest {
@@ -107,8 +110,7 @@ body {
     .button-grid {
         grid-template-columns: repeat(1, minmax(0, 1fr));
         grid-template-rows: repeat(4, minmax(0, 1fr));
-        min-height: 50vh;
-        max-height: 50vh;
+        min-height: 50dvh;
     }
 }
 

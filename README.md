@@ -2,16 +2,18 @@
   <a href="https://mrfeod.github.io/cysigns/">
     <img src="https://github.com/mrfeod/cysigns/blob/master/icon/android-chrome-192x192.png?raw=true" alt="Cyprus Road Signs Logo" />
   </a>
+  <br>Click ⬆️
 </p>
 
 This repo contains a road signs test based on [«Road signs in Cyprus» Wikipedia article](https://en.wikipedia.org/wiki/Road_signs_in_Cyprus).
 
-- [About the test](#about-the-test)
-  - [Additional information for Cyprus driving license applicants](#additional-information-for-cyprus-driving-license-applicants)
-  - [Thirdparty alternatives](#thirdparty-alternatives)
-- [Technical details](#technical-details)
-  - [The Data](#the-data)
-  - [Thirdparty dependencies](#thirdparty-dependencies)
+- [ℹ️About the test](#about-the-test)
+  - [🍏iOS app](#ios-app)
+  - [🪧Additional information for Cyprus driving license applicants](#additional-information-for-cyprus-driving-license-applicants)
+  - [🚦Thirdparty alternatives](#thirdparty-alternatives)
+- [🛠️Technical details](#technical-details)
+  - [📚The Data](#the-data)
+  - [🏗️Thirdparty dependencies](#thirdparty-dependencies)
 
 ## About the test
 The test has two modes: ***Learning*** and ***Self-test***.
@@ -22,7 +24,11 @@ The ***Self-test*** mode could be activated in the bottom right corner and allow
 
 Also, for my lovely wife, I created a feature to switch language on a fly between English and Russian.
 
-**[Try the test here. Good luck!](https://mrfeod.github.io/cysigns/)**
+**[⚠️Try the test here. 🍀Good luck!](https://mrfeod.github.io/cysigns/)**
+
+### iOS app
+- ⚙️ [Source code](https://github.com/R1ckNash/cysigns-mobile)
+- 📱 [App Store](https://apps.apple.com/cy/app/cysigns/id6480476597)
 
 #### Additional information for Cyprus driving license applicants
 - [Cyprus Driving](https://www.cyprusdriving.net/) - great source for people who are looking to get a driving license in Cyprus.

@@ -171,8 +171,8 @@ const signs = [
   },
   {
     'image': 'images/UK_traffic_sign_583.svg',
-    'name': 'Slow-moving vehicles',
-    'ru': 'Медленно движущиеся ТС'
+    'name': 'Slow-moving vehicles on hill likely ahead',
+    'ru': 'Медленно движущиеся ТС на подъеме'
   },
   {
     'image': 'images/UK_traffic_sign_554.2.svg',
@@ -602,18 +602,18 @@ const signs = [
   },
   {
     'image': 'images/Cyprus_road_sign_road_bump_50.svg',
-    'name': 'Curving road surface, the speed limit is set',
-    'ru': 'Извилистая дорога, установлено ограничение скорости'
+    'name': 'Road hump ahead, the speed limit is set',
+    'ru': 'Лежачий полицейский, установлено ограничение скорости'
   },
   {
     'image': 'images/Cyprus_road_sign_humped_crossing.svg',
     'name': 'Humped crossing',
-    'ru': 'Лежачий полицейский'
+    'ru': 'Пешеходный переход с возвышением'
   },
   {
     'image': 'images/Cyprus_road_sign_humped_pellcan_crossing.svg',
     'name': 'Humped «pelican» crossing',
-    'ru': 'Переход с кнопкой и лежачим полицейским'
+    'ru': 'Пешеходный переход с кнопкой и возвышением'
   },
   {
     'image': 'images/Cyprus_road_sign_school.svg',
